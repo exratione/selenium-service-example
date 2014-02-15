@@ -1,0 +1,35 @@
+1.14
+* updated dependencies to their latest versions
+* removed region option
+
+1.13
+* updated dependencies to their latest versions
+
+1.12
+* add -q option to bypass Squid running on our Tunnel VMs
+* added option to disable the proxy server, so you can use your own
+
+1.11
+* ssh compression (zlib)
+
+1.10
+* switch to using blowfish tunnel encryption which should be faster
+* improved error logging
+* display how long each proxied request takes in ms
+* add rabbIT support
+
+1.9
+* remove readyfile when tunnel is stopped
+* cleanup code
+* re-try establishing SSH connection when it fails
+* test forwarding + tunnel upon starting, will show a warning message if something is not working properly.
+
+1.8:
+* Improved error handling, updated Jetty from 7.4.5.v20110725 to 8.1.9.v20130131, which fixes an issue where a HTTP method would sometimes be wrongly proxied.
+
+1.7:
+* Added region support, use -r to specify if you want the tunnel to be used on our US or EU cloud.
+
+1.6:
+* Added support for running multiple tunnels under the same account.
+  This allows for spreading the load across multiple machines when running a high number of simultaneous tests.

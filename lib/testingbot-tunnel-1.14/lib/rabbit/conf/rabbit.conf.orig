@@ -1,0 +1,611 @@
+# This file is partitioned in several sections.
+# A section starts with [<name of section>]
+# If two (or more) sections are found with the same name they are
+# merged into one.
+
+
+[rabbit.proxy.HttpProxy]
+# This section holds the basic stuff needed for the proxy.
+
+# Here you can specify an ip that will be used for incomming 
+# connections, that is the ip rabbit will listen on.
+#listen_ip=192.168.0.123
+
+
+# This is the port the proxy listens on.
+# Use any port available (over 1024 unless you run as root).
+port=9666
+
+# The number of selector threads to run
+# If not specified will use the same as the number of processors
+#num_selector_threads=4
+
+# This specifies the directory that rabbit will look in for
+# 3:rd party libraries. Specify the directories and rabbit will
+# add all jar files found in them. Default is the libs-dir.
+# Separate entries with the path separator ":" (linux/unix) or ";" (windows)
+#libs=libs
+
+# This is the proxy that RabbIT should use when getting its files.
+# Leave it blank to don't have a proxy.
+# Both of these need to be set, or they will be ignored.
+proxyhost=
+proxyport=
+
+# If you want RabbIT to authenticate itself against another proxy
+# fill this in. 
+# This is a string on the format "myuserid:mypassword"
+proxyauth=
+
+# If you need more than simple proxy chaining (fully on or fully off)
+# you can specify a ProxyChainFactory class and use that instead.
+# If you want to connect directly to inside net and to use a proxy
+# when you connect to then internet you can use
+# proxy_chain_factory=rabbit.httpio.InOutProxyChainFactory
+proxy_chain_factory=
+
+# This is the small logo to use.
+# It is used in meta pages and other places.
+# Use $proxy to have RabbIT serve the image.
+logo=http://$proxy/FileSender/public/smallRabbIT4.png
+
+# What do you want your proxy to identify itself as?
+# Server identity can be seen in HTTP header responses
+# in the Server-value.
+#serverIdentity=..__-My own super proxy-__..
+
+# Allow single \n to mean end of header
+# This is a MUST NOT according to spec, but seems to be a common error:
+# "Content-Type: text/html\n\n" for ending CGI etc..
+#StrictHTTP=true
+StrictHTTP=false
+
+# The factory that creates the HttpGenerator. There are a few different
+# factories in rabbit:
+# rabbit.proxy.StandardHttpGeneratorFactory
+# rabbit.proxy.FileTemplateHttpGeneratorFactory
+#
+# The factory will have the setup method called with the properties
+# of the section for the class name of the factory
+http_generator_factory=rabbit.proxy.StandardHttpGeneratorFactory
+# Use this one if you want to configure the error pages yourself
+# but then you have to see the configuration for the factory below as well
+#http_generator_factory=rabbit.proxy.FileTemplateHttpGeneratorFactory
+
+
+[logging]
+# RabbIT uses standard java.util.logging to log things, you 
+# can either setup logging here, which will mean that a FileHandler
+# is used or you can set the system property 
+# "java.util.logging.config.file" to configure your own loggers/handlers.
+#
+access_log=logs/access_log.%g
+access_size_limit=10 # in MB
+access_num_files=100
+error_log=logs/error_log.%g
+error_size_limit=1 # in MB
+error_num_files=10
+
+# This is how much RabbIT will log in the errorlog.
+# Since rabbit uses standard java.util.logging you can 
+# chose one of SEVERE (highest value), WARNING, INFO, 
+# CONFIG, FINE, FINER, and FINEST (lowest value)
+# FINEST means that you will get a lot of logs.
+access_log_level=INFO
+error_log_level=INFO
+
+# Use this if you want to log how much traffic each client
+# generates.
+# Must be instances of rabbit.proxy.ClientTrafficLogger, separate by ",".
+#traffic_loggers=rabbit.proxy.StandardOutTrafficLogger
+
+[data_sources]
+# Specify the DataSource configuration here, one resource for each
+# different database. If you have only one database with say both
+# users and host blocking then you only need one resource
+#resources=user_database,host_blocker
+resources=
+
+[dns]
+# Select the dns handler to use. 
+# DNSJavaHandler is fully threaded but may fail on some machines.
+# DNSSunHandler should work for more people, but is not threaded.
+# If you are on windows then the Sun-version will always be used.
+dnsHandler=rabbit.dns.DNSJavaHandler
+#dnsHandler=rabbit.dns.DNSSunHandler
+
+[rabbit.dns.DNSJavaHandler]
+# How long should dns entries be cached. 
+# Time is in hours.
+# Both positive and negative entries are cached this long.
+# Set it to -1 to cache forever.
+dnscachetime=8
+
+
+[rabbit.io.ConnectionHandler]
+# This section sets up the connection handler.
+
+# The maximal time to keepalive toward external hosts.
+# Note! if we fail to write to a connection, we retry so 
+# It should be safe to have a high value. 
+# Time is in miliseconds.
+keepalivetime=30000
+
+# Should RabbIT try to pipeline requests to external hosts.
+# Pipelining to external hosts will pipeline requests to the same 
+# server even if the requests come from different clients. 
+# This means that in some cases client B will have to wait for 
+# client A to finish. RabbIT will not wait very long on a connection
+# so this should be ok.
+# Still use with caution, somewhat experimental, may cause bugs.
+usepipelining=false
+
+# Here you can specify an ip that will be used for outgoing 
+# connections.
+#bind_ip=192.168.0.123
+
+
+[rabbit.proxy.StandardHttpGeneratorFactory]
+# No parameters
+
+
+[rabbit.proxy.FileTemplateHttpGeneratorFactory]
+error_pages=htdocs/error_pages
+
+
+[Handlers]
+# This section sets up the content handlers.
+# Each mime type can have its own handler.
+# Each mime type identifier is a regexp, case insensitive.
+
+# Handle images by conversion to low quality jpegs.
+# yes, some sites send charsets for images, silly, but handle it
+image/gif(;(charset\=.*)?)?=rabbit.handler.ImageHandler*gif
+image/p?jpeg(;(charset\=.*)?)?=rabbit.handler.ImageHandler*jpeg
+image/png(;(charset\=.*)?)?=rabbit.handler.ImageHandler*png
+
+# Filter these streams.
+# The configuration of FilterHandler is later in this file.
+text/html(;(charset\=.*)?)?=rabbit.handler.FilterHandler
+
+# Use this if you only want compression
+#text/html=rabbit.handler.GZipHandler
+#text/html(;charset\=.*?)?=rabbit.handler.GZipHandler
+
+# Seems Netscape and IE have problems with this one although 
+# they both say it is ok, disabled for now....
+#application/x-javascript=rabbit.handler.GZipHandler
+#text/javascript=rabbit.handler.GZipHandler
+
+# Compress these streams.
+text/plain(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+
+# you may want to compress theese, more testing needed. 
+text/xml(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+application/xml(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+application/postscript(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+text/css(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+
+[CacheHandlers]
+# This section sets up the content handlers for the resourses in the
+# cache. Each mime type can have its own handler. For more info see
+# the Handlers section.
+
+# Note! don't use ImageHandler, FilterHandler or GZipHandler in 
+# both Handlers and CacheHandlers section since they write the 
+# modified page to the cache.
+
+# Handle images by conversion to low quality jpegs.
+#image/gif=rabbit.handler.ImageHandler
+#image/jpeg=rabbit.handler.ImageHandler
+#image/png=rabbit.handler.ImageHandler
+
+
+# Filter these streams.
+#text/html(;(charset\=.*)?)?=rabbit.handler.FilterHandler
+
+# Seems Netscape and IE have problems with this one although 
+# they both say it is ok, disabled for now....
+#application/x-javascript(;(charset\=.*)?)?=rabbit.handler.FilterHandler
+
+# Compress these streams.
+#text/plain(;(charset\=.*)?)?=rabbit.handler.GZipHandler
+
+[rabbit.cache.ncache.NCache]
+# This section sets up the cache.
+
+# The base directory for the cache.
+directory=/tmp/rcache
+
+# The time in hours to cache files, unless specified otherwise (in the
+# http header that is).
+cachetime=24
+
+# The maximal size of the proxy in MB.
+# The cache sweeps at regular intervals and if the cache is bigger
+# some stuff is cleaned out.
+maxsize=10000
+
+# The time the cleaner sleeps between cleanups.
+# time is in seconds.
+cleanloop=60
+
+
+[Filters]
+# This section sets up the filters to use. 
+# A filter is one that may block/close the connection or just modifies
+# the request.
+
+# Accessfilters are based on the socket only.
+# All filters here must implement the IPAccessFilter interface.
+accessfilters=rabbit.filter.AccessFilter
+
+# Here we filter the HTTP header, these filters should have an 
+# public static HTTPHeader doHTTPInFiltering (Socket, HTTPHeader,
+# Connection)
+# method that may modify the incomming request. If a HTTPHeader is
+# returned it is sent to the client and the request is finished. (this
+# is an easy way to block some ads and other bad stuff).
+# The list is comma separated and full class names has to be used.
+# 
+# Available filters today are: 
+# HttpBaseFilter   this is basically needed, use it.
+# DontFilterFilter stop the proxy from filtering certain pages.
+# DontCacheFilter  stop the proxy from cacheing certain pages.
+# BlockFilter      Dont allow access to certain pages.
+# HttpSnoop        Print the Http headers out on System.out.
+# ProxyAuth	   Perform proxy authentication on all users, backend is some type of db
+#                  This filter needs to be after HttpBaseFilter to work correctly.
+# ReverseProxy     Transform requests to "/some/page" into "http://some.host/some/page" 
+#                  If you use the reverse proxy option, you probably 
+#                  want it first in the list
+# NoGZipEncoding   A filter that removes "Accept-Encoding: gzip". Not very useful anymore
+#                  since rabbit can repack gzip:ed and deflated files.
+# RevalidateFilter A filter that makes sure that resources are always re-validated
+# SetHeaderFilter  A filter that can add request or response headers.
+# SQLBlockFilter   A filter similar to BlockFilter, but that uses a sql database to block
+#                  access to a set of hosts
+#
+# by default we use a few filters, 
+httpinfilters=rabbit.filter.HttpBaseFilter,rabbit.filter.DontFilterFilter,rabbit.filter.BlockFilter,rabbit.filter.RevalidateFilter
+# just the basic filter
+#httpinfilters=rabbit.filter.HttpBaseFilter
+# an example if you want to log traffic that rabbit reads
+#httpinfilters=rabbit.filter.HttpSnoop,rabbit.filter.HttpBaseFilter,rabbit.filter.DontFilterFilter
+
+# This works as the httpinfilters except that the method is called
+# doHTTPOutFiltering instead
+# The available filters are the same as for httpinfilters but they
+# need not be.
+httpoutfilters=rabbit.filter.HttpBaseFilter
+# to see what rabbit writes to the client
+#httpoutfilters=rabbit.filter.HttpBaseFilter,rabbit.filter.HttpSnoop
+# to see what rabbit gets from the real server
+#httpoutfilters=rabbit.filter.HttpSnoop,rabbit.filter.HttpBaseFilter
+
+# The filters to run on CONNECT requests.
+# Typically not used, but can be nice for snooping or authentication controls.
+#conectfilters=
+
+
+[sslhandler]
+# Are we allowed to proxy SSL?
+# We don't check the data so this is not recommended.
+# yes, no, portnumber are allowed options.
+allowSSL=443,444,8443  # allow to these ports.
+#allowSSL=yes          # allow to all ports.
+#allowSSL=no           # dont allow sslproxying.
+#allowSSL=no
+
+
+[rabbit.filter.AccessFilter]
+# This is a filter to allow simple accesscontrol.
+
+# this file store the available ip-ranges that can use the proxy.
+accessfile=conf/access
+
+
+[rabbit.filter.HttpBaseFilter]
+# This is a basic filter (which _SHOULD_ be used). Basically RabbIT
+# is depending on this filter being used.
+
+# Remove these hop-headers.
+remove=Connection,Proxy-Connection,Keep-Alive,Public,Transfer-Encoding,Upgrade,Proxy-Authorization,TE,Proxy-Authenticate,Trailer
+
+# authenticate users (basic method only) with this user-password file.
+# this is used for meta/admin access...
+userfile=conf/users
+
+# If you set cookieid to "true" rabbit will not cache resources
+# that seem to use cookie based identification. This should only 
+# be used if the site in question is broken (that is it does not
+# send "Cache-Control: no-cache" or similar to disable caching.
+cookieid=false
+
+
+[rabbit.filter.DontFilterFilter]
+# This filter stops filtering certain pages that otherwise would be
+# handled in a strange way (due to strange HTML that we parse
+# (in)correctly). 
+# this filter is not enabled by default, add it to 
+# httpinfilters if you want it.
+
+# Match URL's, regexp, find is used. 
+dontFilterURLmatching=(login\.passport\.com|\.jar|\.js(\?|$)|www\.ureach\.com|(maps|(khm|mt)\d).google.com|tile.openstreetmap.org)
+
+# Match agents, regepx, find is used.
+#dontFilterAgentsMatching=(Java|Evil browser|pocketOpera)
+dontFilterAgentsMatching=Java
+
+
+[rabbit.filter.DontCacheFilter]
+# This filter stops cacheing of certain pages. It could be good for never
+# cacheing chat sites that dont send correct cache-control directives.
+# this filter is not enabled by default, add it to 
+# httpinfilters or httpoutfilters if you want it.
+
+# This filter can match on either URL or mime type. Remember that not 
+# all sites supply correct mimes...
+# To match on URL append this class to the httpinfilters...
+# To match on mime type append this class to the httpoutfilters...
+# You may of course use both methods if wanted/needed.
+# All matching is done in lower case (of the URL/mime) so use that below.
+
+# Some examples: 
+# Match URL regexp, find is used.
+# This example dont cache any html or asp pages (this is probably stupid to do).
+#dontCacheURLmatching=(\.html|\.asp)
+
+# This example dont cache a certain site and page..
+#dontCacheURLmatching=(www\.chat\.com/index\.html)
+
+# This example only caches resources with .gif or .jpeg in it..
+#onlyCacheURLmatching=(\.gif|\.jpeg)
+
+# dont cahce ordinary web pages.
+#dontCacheMimematching=text/html
+
+# dont cache text files (text/html, text/plain...)
+#dontCacheMimematching=text/
+
+# Only cache gif images
+#onlyCacheMimematching=image/gif
+
+# Only cache images
+#onlyCacheMimematching=image
+
+
+[rabbit.filter.BlockFilter]
+# This is a filter that blocks access to resources.
+
+# return a 403 forbidden for these requests.
+blockURLmatching=(\.sex\.|[-.]ad([sx]?)\.|/ad\.|adserving\.|ad101com-|pagead/imgad|as-us.falkag.net|clicktorrent.info)
+
+# only allow access to these urls
+#allowURLmatching=(www\.)?somesite.com/
+
+
+[rabbit.filter.SQLBlockFilter]
+# return a 403 forbidden for the requests that have a host found in 
+# a database
+# The resource must match a loaded resource
+resource=jdbc/host_blocker
+user=
+password=
+select=select 1 from bad_hosts where hostname = ?
+
+
+[rabbit.filter.HttpSnoop]
+# mode can be one of NORMAL, REQUEST_LINE, FULL
+# mode defaults to NORMAL if not specified
+# NORMAL: log full request/response header
+# REQUEST_LINE: only log the request/response line
+# FULL: log full request/response header and any request body
+#mode=NORMAL
+
+[rabbit.filter.ProxyAuth]
+# This filter is not enabled by default, add it to 
+# httpinfilters if you want it.
+
+# Restrict access so that only one ip can use the same username at a time
+# To use this you need to set the cache time to > 0
+one_ip_only=true
+# how many minutes to cache the result, rabbit will only cache
+# if the cachetime is > 0
+cachetime=5
+
+# Allow a set or urls. The pattern is a regexp.
+allow_without_auth=^http://(www.)?khelekore.org/
+
+# Set the authenticator to either "plain" or "sql" or a class name.
+# If you use a custom class, then it must implement The 
+# rabbit.filter.authenticate.Authenticator interface.
+authenticator=plain
+# For plain text file authentication:
+userfile=conf/allowed
+
+# The database resource to use, must match a loaded resource
+#resource=jdbc/host_blocker_database
+resource=
+# The database user, may be blank
+user=
+# The database password, may be blank
+password=
+# The select to use, you have to have one '?' for the username
+select=select password from rabbit_users where username=?
+
+[rabbit.filter.ReverseProxy]
+# This filter is not enabled by default, add it to 
+# httpinfilters if you want it.
+# This Filter makes rabbit work as an accellerator for one web site.
+
+# Change requests starting with / to http://www.khelekore.org/
+transformMatch=^/(.*)
+transformTo=http://www.khelekore.org/$1
+
+# Deny proxy requests, you probably want this. 
+deny=^http(s?)://.*
+
+# If we want to allow admin access.
+allowMeta=true
+
+
+[rabbit.filter.NoGZipEncoding]
+# setting this to false is the same thing as removing the 
+# filter (at least for now)
+remove=true
+
+[rabbit.filter.RevalidateFilter]
+# setting this to true will force rabbit to re-validate all resources
+alwaysrevalidate=false
+
+# a regexp matching sites to re-validate
+revalidate=freshmeat.net/$|slashdot.org/$|http://www/$|newsforge.com/$
+
+
+[rabbit.filter.SetHeaderFilter]
+# set fix request or response headers 
+#request.foo=bar
+#request.bar=baz
+#response.qwe=boh
+#response.uonkl=97714
+
+
+[rabbit.handler.GZipHandler]
+# Should we compress data streams? 
+# valid values are "false" and everything else is considered true
+compress=true
+#compress=false
+
+
+[rabbit.handler.ImageHandler*jpeg]
+# This handler converts images into low quality jpegs instead of high
+# quality gifs/pngs.
+
+# This is the program used to convert the images.
+# if this program is not found, this filter will do nothing...
+
+# to use convert from imagemagick
+#convert=/usr/bin/convert
+
+# to use convert from graphicsmagick
+convert=/usr/bin/gm
+
+# $filename is expanded to the right name(the cachefile) during
+# runtime 
+# imagemagick arguments
+#convertargs=-quality 10 $filename[0] jpeg:$filename.c
+
+# graphicsmagick arguments
+convertargs=convert -quality 10 -flatten $filename +profile "*" jpeg:$filename.c
+
+# Images that are smaller than this are not converted at all
+min_size=2000
+# Fallback for java based converter
+quality=0.1
+
+[rabbit.handler.ImageHandler*gif]
+# use graphicsmagick
+convert=/usr/bin/gm
+convertargs=convert -quality 10 -flatten $filename +profile "*" jpeg:$filename.c
+min_size=2000
+quality=0.1
+
+[rabbit.handler.ImageHandler*png]
+# use graphicsmagick
+convert=/usr/bin/gm
+convertargs=convert -quality 10 -flatten $filename +profile "*" jpeg:$filename.c
+min_size=2000
+quality=0.1
+
+[rabbit.handler.FilterHandler]
+# This is the basic HTML page filter. It uses a few other HTMLFilters.
+# Note! if this filter is to compress the pages sent you need to set
+# compress value to true (which is default).
+
+# use these HTMLFilters. available filters are: 
+# BodyFilter        This filter inserts a noproxy link at the top of the page. 
+# BackgroundFilter  This filter removes background images.
+# AdFilter          This filter removes advertising from pages.
+# BlinkFilter       This filter removes the <blink> tags.
+# LowresImageFilter This filter removes the lowres-attributes from <img> tags.
+filters=rabbit.filter.BodyFilter,rabbit.filter.BackgroundFilter,rabbit.filter.AdFilter,rabbit.filter.BlinkFilter,rabbit.filter.LowresImageFilter
+# A filter that destroys content a bit less than the above
+# filters=rabbit.filter.AdFilter,rabbit.filter.BlinkFilter,rabbit.filter.LowresImageFilter
+
+# Should we compress data streams? 
+# valid values are "false" and everything else is considered true
+compress=true
+
+# Should we unpack compressed content, filter it and possibly repack it?
+repack=false
+
+# Set the default charset, the rfc specifies ISO-8859-1, but you can change it, but it is probably a bad idea.
+#defaultCharSet=UTF-8
+
+# Always force a given charset, probably a very bad idea.
+#overrideCharSet=UTF-8
+
+
+[rabbit.filter.BodyFilter]
+# A Filter to insert a noproxy link at the start of each page.
+
+# This text before the link
+prefix=<center><font size=-2><a href="http://www.khelekore.org/rabbit/" target="_top">RabbIT</a> filtered this page.
+# And this text after.
+postfix=</font></center><br>
+# should we insert a link.
+unfilteredlink=true
+# visible name of the link
+link=unfiltered page
+
+
+[rabbit.filter.BackgroundFilter]
+# A Filter to remove background images.
+# This filter has no configuration options.
+
+
+[rabbit.filter.AdFilter]
+# A filter to remove advertising from pages.
+
+# The list of evils. A regexp.
+adlinks=[/.]((c|net|ns|surf|page|imag)?ad([svq]|fu|srv|[sz]erver|log|bannercenter|_?click|verts|finity|force|click|tech)?\d*|banner|linkexchange|acc_clickthru|action|vertising)[/.]|gen_addframe|event.ng|/m=|/ad(num|vert|name)?=|/site_id=|support.net|/redir\.|\?assoc=|atdmt.com
+
+# The image to replace ads with.
+# Use $proxy to let the RabbIT serve the image.
+adreplacer=http://$proxy/FileSender/public/NoAd.gif
+
+
+[rabbit.filter.LowresImageFilter]
+# A filter that removes the lowres attributes from the img-tags.
+# This filter (currently) has no configuration options.
+
+
+[user_database]
+# Configure the resource for the user database
+# Please drop the needed jar-files in one of the directories given by
+# the libs-entry in the rabbit.proxy.HttpProxy-section.
+#
+#class=com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource
+#DataSource=oracle.jdbc.OracleDataSource
+class=org.apache.derby.jdbc.ClientConnectionPoolDataSource40
+# The name to bind to
+bind_name=java:comp/env/jdbc/user_database
+# The set-methods to call, if any, check the documentation for your DataSource
+# Here you can also call setup methods on the DataSource
+# check the manual for your DataSource and then add a <method>=<value> to
+# call that method. Currently the values can only be strings, but that
+# may be changed in the future.
+setServerName=userDatabase
+setDatabaseName=database
+#setUser=
+#setPassword=
+#For oracle you probably want to set the url
+#url=jdbc:oracle:thin:@127.0.0.1:1521:mysid
+
+
+[host_blocker]
+class=org.apache.derby.jdbc.ClientConnectionPoolDataSource40
+bind_name=java:comp/env/jdbc/host_blocker_database
+setServerName=hostBlockerDatabase
+setDatabaseName=database

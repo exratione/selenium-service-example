@@ -1,0 +1,22 @@
+# This directory holds error pages
+# The error pages are the actual content, the header is generated 
+# by rabbit internally.
+
+# Each template file should be named by the error code, like "504"
+# for the Gateway timeout page.
+
+# Each template may have some tags and strings replaced.
+# The following tags may be used for simple transformations:
+# <%url%>         expands to the request url 
+# <%exception%>   expands to the error message
+# <%filename%>    expands to the filename of the wanted file
+# <%expectation%> expands to the expectation that failed
+# <%realm%>       expands to the authorization realm
+
+# The following tags expand to quite a lot of content:
+# <%places%>      expands to a list of alternative url:s
+# <%stacktrace%>  expands to the java stack trace
+
+# Inside A-tags and IMG-tags the string "$proxy" may be used
+# to refer to the current proxy, similar to how the ad blocking 
+# replacement image is most often served.

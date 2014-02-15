@@ -1,0 +1,16 @@
+# allow/deny ranges
+# anything after a '#' is a comment
+# each lines has two ip addresses, the lower bound and the upper bound.
+# if the line starts with '-' it is a deny rule
+#
+# default is to allow everyone, probably not what you want, 
+# but for testing this is good.
+0.0.0.0	255.255.255.255
+# only allow local host
+#127.0.0.1 127.0.0.1
+
+# deny some standard private networks
+#-10.0.0.0 10.255.255.255
+#-172.16.0.0 172.31.0.255 
+#-192.168.0.0 192.168.255.255
+#-127.0.0.1 127.0.0.1

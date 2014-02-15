@@ -1,0 +1,36 @@
+{
+  "name": "selenium-service-example",
+  "description": "An example Node.js setup for running parallel Selenium end to end tests against a local server via SauceLabs, BrowserStack, or TestingBot.",
+  "keywords": [
+    "test",
+    "selenium",
+    "saucelabs",
+    "browserstack",
+    "testingbot"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/exratione/selenium-service-example",
+  "author": "Reason <reason@exratione.com>",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "dependencies": {
+    "async": "0.x.x",
+    "chai": "1.x.x",
+    "chai-as-promised": "4.x.x",
+    "express": "3.x.x",
+    "glob": "3.x.x",
+    "mocha": "1.x.x",
+    "mocha-as-promised": "2.x.x",
+    "uuid": "1.x.x",
+    "wd": "0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exratione/selenium-service-example"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/exratione/selenium-service-example/raw/master/LICENSE"
+  }]
+}

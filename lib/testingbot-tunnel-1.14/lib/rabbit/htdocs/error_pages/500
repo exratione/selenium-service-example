@@ -1,0 +1,11 @@
+<html><head><title>Gateway Timeout</title></head>
+<body bgcolor="WHITE" text="BLACK" link="BLUE" alink="RED" vlink="#AA00AA">
+<img src="http://$proxy/FileSender/public/smallRabbIT4.png" alt="RabbIT logo" align="right">
+<h1>Internal Server Error</h1>
+Request url: <%url%>
+<br>Error: <%exception%>
+
+<p>Stack trace:
+<br><pre><%stacktrace%>
+</pre>
+</ul></b><br></body></html>
