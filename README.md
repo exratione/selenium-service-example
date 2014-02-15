@@ -8,14 +8,19 @@ end Selenium tests using one of these cloud services:
 * [TestingBot](http://testingbot.com)
 
 These services each provide an SSH tunnel application that allows cloud Selenium
-servers to run tests against your local web server, or a web server in your
-internal network. Since most of the time taken by a test thread is spent waiting
-on responses from the remote server, it is perfectly feasible to run dozens or
-even hundreds of parallel end to end tests through a single SSH tunnel on a
-single developer machine.
+servers to run tests against your local web server, or against a web server in
+your internal network. By launching the tunnel you connect an endpoint on your
+local machine to the remote Selenium service, allowing it to access the servers
+that you can see.
 
-When the Selenium tests for a major project usually require hours to run
-serially, the ability to easily run in parallel is very helpful.
+Parallel testing can be highly efficient. Since most of the time taken by a test
+thread is spent waiting on responses from the remote server, it is perfectly
+feasible to run dozens or even hundreds of parallel end to end test suites
+through a single SSH tunnel on a single developer machine.
+
+Given that the Selenium tests for a major project usually require hours to run
+serially, the ability to easily run in parallel is very helpful. It can crush
+down the time taken to a much more reasonable span.
 
 ## Installation
 
@@ -62,12 +67,30 @@ cd /vagrant
 node runTests
 ```
 
-Assuming the SSH tunnel successfully instantiated - it will occasionally fail,
-which is the way of all cloud services - then two test runner subprocesses will
-spawn to run Selenium tests in parallel.
+This will:
 
-You can look into the log directory to see the output from each test runner
-process.
+  * Launch a simple Express server.
+  * Launch the SSH tunnel for the configured Selenium service.
+  * Launch parallel test processes, each running its own set of end to end tests.
+  * Shut down the SSH tunnel.
+  * Shut down the Express server.
+  * Display the results.
 
+Note that the SSH tunnel for any of these services will sometimes fail to
+initialize, or will time out waiting on the remote connection. Cloud services
+are only as reliable as the ability to launch and maintain servers, which at
+this point is still not all that reliable. Redundancy helps, but not
+when you are waiting on one specific connection to one specific server.
 
+Errors of this nature will shut down the process, and will be displayed in the
+output. You can also look into the `log` directory to see log files containing
+the output from each test runner process, and from the tunnel process itself.
 
+# Potential Improvements
+
+This is a very simple, crude setup. It makes no attempt to be smart about
+monitoring the tunnel stdout and stderr pipes for known issues that may cause
+the tunnel process to hang rather than end, for example.
+
+Similarly, there are better ways to channel and present the output from test
+processes than to just dump them to logs.
