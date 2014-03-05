@@ -40,6 +40,9 @@ exports.testProcesses = [];
 exports.run = function (callback) {
   var self = this;
   async.series({
+    ensureLogDirectory: function (asyncCallback) {
+      self.ensureLogDirectory(asyncCallback);
+    },
     startServer: function (asyncCallback) {
       self.startServer(asyncCallback);
     },
@@ -114,6 +117,26 @@ exports.handleError = function (error, callback) {
     } else {
       console.error(error.toString());
       process.exit(1);
+    }
+  });
+};
+
+//---------------------------------------------------------------------------
+// Other utilities.
+//---------------------------------------------------------------------------
+
+/**
+ * Create a logs directory if it doesn't exist.
+ *
+ * @param {Function} callback
+ */
+exports.ensureLogDirectory = function (callback) {
+  var logDir = path.join(__dirname, '..', 'logs');
+  fs.exists(logDir, function (exists) {
+    if (exists) {
+      callback();
+    } else {
+      fs.mkdir(logDir, callback);
     }
   });
 };
@@ -320,6 +343,7 @@ exports.launchSauceLabsTunnel = function(callback) {
   var checkReadyId = setInterval(function () {
     fs.exists(readyFilePath, function (exists) {
       if (exists) {
+        console.log('SauceLabs SSH tunnel launched and ready.');
         fs.unlink(readyFilePath, function () {});
         clearTimeout(timeoutId);
         clearInterval(checkReadyId);
@@ -409,6 +433,7 @@ exports.launchTestingBotTunnel = function(callback) {
   var checkReadyId = setInterval(function () {
     fs.exists(readyFilePath, function (exists) {
       if (exists) {
+        console.log('TestingBot SSH tunnel launched and ready.');
         fs.unlink(readyFilePath, function () {});
         clearTimeout(timeoutId);
         clearInterval(checkReadyId);
