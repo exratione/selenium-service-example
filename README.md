@@ -94,3 +94,15 @@ the tunnel process to hang rather than end, for example.
 
 Similarly, there are better ways to channel and present the output from test
 processes than to just dump them to logs.
+
+# Other Notes
+
+As of Q2 2014, the native binary SSH tunnels for SauceLabs and BrowserStack are
+still fairly new. They are not yet as robust as the old Java SSH tunnels that
+were used by these services up until Q1 2014, and nor are they as capable of
+handling as great a number of test threads.
+
+In BrowserStack's case, you should not try to run more than about 8-10 parallel
+test threads through the same tunnel instance as it will definitely run into
+issues. If you want greater concurrency then run several tunnel instances in
+parallel and split your threads between them.
