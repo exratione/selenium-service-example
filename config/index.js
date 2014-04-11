@@ -86,7 +86,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/BrowserStackLocal-1.4-linux-x64',
+      path: 'lib/BrowserStackLocal-1.7-linux-x64',
       // Logfile path.
       log: 'logs/browserstack.log',
       // Milliseconds to wait for the SSH tunnel connection to be established.
@@ -122,7 +122,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/sc-4.0-linux/bin/sc',
+      path: 'lib/sc-4.1-linux/bin/sc',
       // Logfile path.
       log: 'logs/saucelabs.log',
       // Milliseconds to wait for the SSH tunnel connection to be established,

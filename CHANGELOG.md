@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.5
+-----
+
+  * Update to BrowserStackLocal 1.7.
+  * Update to Sauce Connect 4.1.
+
 0.0.4
 -----
 
