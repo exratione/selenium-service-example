@@ -8,14 +8,22 @@
 
 var master = require('./src/master');
 
-master.run(function (error, incompleteTestProcessCount, failedTestCount) {
+var configPath = './config';
+if (process.argv.length < 3) {
+  console.log('No configuration file path provided. Using default: ' + configPath);
+} else {
+  configPath = process.argv[2];
+  console.log('Using provided configuration file path: ' + configPath);
+}
+
+master.run(configPath, function (error, incompleteTestProcessCount, failedTestCount) {
   console.log('---------------------------------------------');
   console.log('RESULTS');
   console.log('---------------------------------------------');
 
   if (error) {
     console.error('An error occurred in the test control process:');
-    console.error(error.toString());
+    console.error(error.stack);
     process.exit(1);
   }
 

@@ -14,12 +14,12 @@ var fs = require('fs');
 var path = require('path');
 var async = require('async');
 var uuid = require('uuid');
-var config = require('../config');
 
 //---------------------------------------------------------------------------
 // Properties that will be set.
 //---------------------------------------------------------------------------
 
+exports.config = undefined;
 // HttpServer instance.
 exports.server = undefined;
 // The child process instance running the SSH tunnel.
@@ -34,12 +34,18 @@ exports.testProcesses = [];
 /**
  * Setup the server, SSH tunnel, and run the tests.
  *
+ * @param {String} configPath
+ *   Path to configuration, to be passed to require(). Relative to the upper
+ *   directory of the project.
  * @param {Function} callback
  *   Of the form function function (error, incompleteTestProcessCount, failedTestCount).
  */
-exports.run = function (callback) {
+exports.run = function (configPath, callback) {
   var self = this;
   async.series({
+    readConfiguration: function (asyncCallback) {
+      self.readConfiguration(configPath, asyncCallback);
+    },
     ensureLogDirectory: function (asyncCallback) {
       self.ensureLogDirectory(asyncCallback);
     },
@@ -63,7 +69,7 @@ exports.run = function (callback) {
     // didn't even launch the tests.
     if (error) {
       return self.handleError(error, function () {
-        callback(error, false);
+        callback(error);
       });
     }
 
@@ -97,7 +103,7 @@ exports.run = function (callback) {
 exports.handleError = function (error, callback) {
   var self = this;
   console.error('An error occurred. Halting testing.');
-  console.error(error.toString());
+
   async.series({
     haltTestProcesses: function (asyncCallback) {
       self.haltTestProcesses(asyncCallback);
@@ -110,12 +116,13 @@ exports.handleError = function (error, callback) {
     }
   }, function (shutdownError) {
     if (shutdownError) {
-      console.error(shutdownError.toString());
+      console.error('A further error occurred while halting testing:');
+      console.error(shutdownError.stack);
     }
     if (callback) {
       callback(error);
     } else {
-      console.error(error.toString());
+      console.error(error.stack);
       process.exit(1);
     }
   });
@@ -124,6 +131,24 @@ exports.handleError = function (error, callback) {
 //---------------------------------------------------------------------------
 // Other utilities.
 //---------------------------------------------------------------------------
+
+/**
+ * Read the configuration file to be used.
+ *
+ * @param {String} configPath
+ *   Path to configuration, to be passed to require(). Relative to the upper
+ *   directory of the project.
+ * @param {Function} callback
+ *   Of the form function function (error).
+ */
+exports.readConfiguration = function (configPath, callback) {
+  try {
+    this.config = require(path.join(__dirname, '..', configPath));
+    callback();
+  } catch (error) {
+    callback(new Error('Invalid configuration file path: ' + configPath));
+  }
+};
 
 /**
  * Create a logs directory if it doesn't exist.
@@ -185,10 +210,10 @@ exports.launchBrowserStackTunnel = function (callback) {
   var self = this;
   var callbackInvoked = false;
 
-  if(!config.browserstack.user) {
+  if(!this.config.browserstack.user) {
     return callback(new Error('Missing config.browserstack.user.'));
   }
-  if(!config.browserstack.key) {
+  if(!this.config.browserstack.key) {
     return callback(new Error('Missing config.browserstack.key.'));
   }
 
@@ -201,20 +226,20 @@ exports.launchBrowserStackTunnel = function (callback) {
   // one server:
   // host1,port1,ssl1,host2,port2,ssl2,etc ...
   var hostString = [
-    config.server.host,
-    config.server.port,
+    this.config.server.host,
+    this.config.server.port,
     // Indicating that this is not an SSL connection.
     0
   ].join(',');
 
   var args = [
-    config.browserstack.key,
+    this.config.browserstack.key,
     hostString,
     // Uncomment for verbose logging - not a great deal of difference with this
     // tunnel, however.
     // '-v',
     '-tunnelIdentifier',
-    config.browserstack.tunnel.identifier,
+    this.config.browserstack.tunnel.identifier,
     // Disable Live Testing and Screenshots, just test with Automate.
     '-onlyAutomate',
     // Skip checking for the validity of the folder/hosts parameters. This is
@@ -223,12 +248,12 @@ exports.launchBrowserStackTunnel = function (callback) {
     '-skipCheck'
   ];
 
-  this.tunnelProcess = childProcess.spawn(config.browserstack.tunnel.path, args, {
+  this.tunnelProcess = childProcess.spawn(this.config.browserstack.tunnel.path, args, {
     cwd: path.join(__dirname, '..')
   });
 
   // Pipe both stdout and stderr to the specified log file.
-  var writer = fs.createWriteStream(path.join(__dirname, '..', config.browserstack.tunnel.log));
+  var writer = fs.createWriteStream(path.join(__dirname, '..', this.config.browserstack.tunnel.log));
   this.tunnelProcess.stderr.pipe(writer);
   this.tunnelProcess.stdout.pipe(writer);
 
@@ -238,7 +263,7 @@ exports.launchBrowserStackTunnel = function (callback) {
     self.tunnelProcess.removeListener('data', readyListener);
     callbackInvoked = true;
     callback(new Error('Timed out waiting for SSH tunnel to initialize.'));
-  }, config.browserstack.tunnel.timeout);
+  }, this.config.browserstack.tunnel.timeout);
 
   /**
    * A listener function for the tunnel. Callback when the tunnel outputs a
@@ -289,10 +314,10 @@ exports.launchSauceLabsTunnel = function(callback) {
   var self = this;
   var callbackInvoked = false;
 
-  if(!config.saucelabs.user) {
+  if(!this.config.saucelabs.user) {
     return callback(new Error('Missing config.saucelabs.user.'));
   }
-  if(!config.saucelabs.key) {
+  if(!this.config.saucelabs.key) {
     return callback(new Error('Missing config.saucelabs.key.'));
   }
 
@@ -300,18 +325,18 @@ exports.launchSauceLabsTunnel = function(callback) {
 
   // The process will touch a file when the remote Selenium server has started
   // and it is ready for use.
-  var readyFilePath = path.join(__dirname, config.saucelabs.tunnel.identifier + '-ready');
-  var logFile = path.join(__dirname, '..', config.saucelabs.tunnel.log);
+  var readyFilePath = path.join(__dirname, this.config.saucelabs.tunnel.identifier + '-ready');
+  var logFile = path.join(__dirname, '..', this.config.saucelabs.tunnel.log);
 
   var args = [
     '--user',
-    config.saucelabs.user,
+    this.config.saucelabs.user,
     '--api-key',
-    config.saucelabs.key,
+    this.config.saucelabs.key,
     // Uncomment for verbose logging.
     // '--verbose',
     '--tunnel-identifier',
-    config.saucelabs.tunnel.identifier,
+    this.config.saucelabs.tunnel.identifier,
     // Apparently this doesn't work - so we're using pipes from the process
     // below.
     //'--logfile',
@@ -319,10 +344,10 @@ exports.launchSauceLabsTunnel = function(callback) {
     '--readyfile',
     readyFilePath,
     '--se-port',
-    config.saucelabs.tunnel.seleniumPort,
+    this.config.saucelabs.tunnel.seleniumPort,
   ];
 
-  this.tunnelProcess = childProcess.spawn(config.saucelabs.tunnel.path, args, {
+  this.tunnelProcess = childProcess.spawn(this.config.saucelabs.tunnel.path, args, {
     cwd: path.join(__dirname, '..')
   });
 
@@ -337,7 +362,7 @@ exports.launchSauceLabsTunnel = function(callback) {
     clearInterval(checkReadyId);
     callbackInvoked = true;
     callback(new Error('Timed out waiting for SSH tunnel to initialize.'));
-  }, config.saucelabs.tunnel.timeout);
+  }, this.config.saucelabs.tunnel.timeout);
 
   // Set up a periodic check for the existence of the readyfile.
   var checkReadyId = setInterval(function () {
@@ -383,10 +408,10 @@ exports.launchTestingBotTunnel = function(callback) {
   var self = this;
   var callbackInvoked = false;
 
-  if(!config.testingbot.key) {
+  if(!this.config.testingbot.key) {
     return callback(new Error('Missing config.testingbot.key.'));
   }
-  if(!config.testingbot.secret) {
+  if(!this.config.testingbot.secret) {
     return callback(new Error('Missing config.testingbot.secret.'));
   }
 
@@ -394,22 +419,22 @@ exports.launchTestingBotTunnel = function(callback) {
 
   // The process will touch a file when the remote Selenium server has started
   // and it is ready for use.
-  var readyFilePath = path.join(__dirname, config.testingbot.tunnel.identifier + '-ready');
-  var logFile = path.join(__dirname, '..', config.testingbot.tunnel.log);
+  var readyFilePath = path.join(__dirname, this.config.testingbot.tunnel.identifier + '-ready');
+  var logFile = path.join(__dirname, '..', this.config.testingbot.tunnel.log);
 
   // Note that tunnel identifier isn't passed in the arguments.
   var args = [
     '-jar',
-    config.testingbot.tunnel.path,
-    config.testingbot.key,
-    config.testingbot.secret,
+    this.config.testingbot.tunnel.path,
+    this.config.testingbot.key,
+    this.config.testingbot.secret,
     // Supposedly makes the tunnel faster, but it simply doesn't work if this is
     // enabled.
     //'--boost',
     '--readyfile',
     readyFilePath,
     '--se-port',
-    config.testingbot.tunnel.seleniumPort,
+    this.config.testingbot.tunnel.seleniumPort,
   ];
 
   this.tunnelProcess = childProcess.spawn('java', args, {
@@ -427,7 +452,7 @@ exports.launchTestingBotTunnel = function(callback) {
     clearInterval(checkReadyId);
     callbackInvoked = true;
     callback(new Error('Timed out waiting for SSH tunnel to initialize.'));
-  }, config.testingbot.tunnel.timeout);
+  }, this.config.testingbot.tunnel.timeout);
 
   // Set up a periodic check for the existence of the readyfile.
   var checkReadyId = setInterval(function () {
@@ -475,36 +500,36 @@ exports.launchTestingBotTunnel = function(callback) {
 exports.startTunnel = function (callback) {
   var capabilities;
 
-  switch (config.service) {
+  switch (this.config.service) {
     case 'browserstack':
       // Fill out necessary configuration.
-      config.browserstack.tunnel.identifier = uuid.v4();
-      capabilities = config.browserstack.capabilities;
-      capabilities['browserstack.tunnelIdentifier'] = config.browserstack.tunnel.identifier;
-      capabilities['browserstack.user'] = config.browserstack.user;
-      capabilities['browserstack.key'] = config.browserstack.key;
+      this.config.browserstack.tunnel.identifier = uuid.v4();
+      capabilities = this.config.browserstack.capabilities;
+      capabilities['browserstack.tunnelIdentifier'] = this.config.browserstack.tunnel.identifier;
+      capabilities['browserstack.user'] = this.config.browserstack.user;
+      capabilities['browserstack.key'] = this.config.browserstack.key;
       // Then on to launching the tunnel process.
       this.launchBrowserStackTunnel(callback);
       break;
 
     case 'saucelabs':
       // Fill out necessary configuration.
-      config.saucelabs.tunnel.identifier = uuid.v4();
-      capabilities = config.saucelabs.capabilities;
-      capabilities['tunnel-identifier'] = config.saucelabs.tunnel.identifier;
+      this.config.saucelabs.tunnel.identifier = uuid.v4();
+      capabilities = this.config.saucelabs.capabilities;
+      capabilities['tunnel-identifier'] = this.config.saucelabs.tunnel.identifier;
       // Then on to launching the tunnel process.
       this.launchSauceLabsTunnel(callback);
       break;
 
     case 'testingbot':
       // Fill out necessary configuration.
-      config.testingbot.tunnel.identifier = uuid.v4();
+      this.config.testingbot.tunnel.identifier = uuid.v4();
       // Then on to launching the tunnel process.
       this.launchTestingBotTunnel(callback);
       break;
 
     default:
-      callback(new Error('Invalid service specified: ' + config.service));
+      callback(new Error('Invalid service specified: ' + this.config.service));
       break;
   }
 };
@@ -555,13 +580,13 @@ exports.runTestProcesses = function (callback) {
     }
   }
 
-  this.testProcesses = config.workers.map(function (paths, index) {
+  this.testProcesses = this.config.workers.map(function (paths, index) {
     console.log('Launching test process ' + index);
     // Spawn a worker process, sending over the index and the base64 encoded
     // configuration to work with.
     var testProcess = childProcess.fork('./src/worker', [
       index,
-      new Buffer(JSON.stringify(config)).toString('base64')
+      new Buffer(JSON.stringify(self.config)).toString('base64')
     ], {
       cwd: path.join(__dirname, '..'),
       silent: true

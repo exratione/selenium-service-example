@@ -86,6 +86,16 @@ Errors of this nature will shut down the process, and will be displayed in the
 output. You can also look into the `log` directory to see log files containing
 the output from each test runner process, and from the tunnel process itself.
 
+# Specifying the Configuration File
+
+You can specify alternative configuration files when running tests, which should
+help with experimentation. Paths must be relative to the project directory.
+e.g.:
+
+```
+node runTests config/my-configuration-file.js
+```
+
 # Potential Improvements
 
 This is a very simple, crude setup. It makes no attempt to be smart about

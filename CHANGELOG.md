@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.7
+-----
+
+  * Enable specification of configuration file path.
+
 0.0.6
 -----
 
