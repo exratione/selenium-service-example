@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.8
+-----
+
+  * Add log prefix and directory configuration.
+  * Ensure browser.quit() has time to finish at the end of a test.
+
 0.0.7
 -----
 

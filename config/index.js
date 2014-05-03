@@ -40,6 +40,13 @@ module.exports = {
     reporter: 'json-stream'
   },
 
+  // Log settings.
+  log: {
+    // Relative to the project directory.
+    directory: 'logs',
+    workerLogPrefix: 'test-process-'
+  },
+
   // Workers will be spawned to run the tests in parallel. Here define which
   // test files each worker will use.
   //
@@ -87,8 +94,8 @@ module.exports = {
     tunnel: {
       // Path to the tunnel binary.
       path: 'lib/BrowserStackLocal-2.0-linux-x64',
-      // Logfile path.
-      log: 'logs/browserstack.log',
+      // Log file name. It will be written to the general log directory.
+      logfile: 'browserstack.log',
       // Milliseconds to wait for the SSH tunnel connection to be established.
       timeout: 120 * 1000
     }
@@ -123,8 +130,8 @@ module.exports = {
     tunnel: {
       // Path to the tunnel binary.
       path: 'lib/sc-4.1-linux/bin/sc',
-      // Logfile path.
-      log: 'logs/saucelabs.log',
+      // Log file name. It will be written to the general log directory.
+      logfile: 'saucelabs.log',
       // Milliseconds to wait for the SSH tunnel connection to be established,
       // which will usually require instantiation of a dedicated Selenium cloud
       // server.
@@ -161,8 +168,8 @@ module.exports = {
     tunnel: {
       // Path to the tunnel JAR file.
       path: 'lib/testingbot-tunnel-1.14/testingbot-tunnel.jar',
-      // Logfile path.
-      log: 'logs/testingbot.log',
+      // Log file name. It will be written to the general log directory.
+      logfile: 'testingbot.log',
       // Milliseconds to wait for the SSH tunnel connection to be established,
       // which will usually require instantiation of a dedicated Selenium cloud
       // server.

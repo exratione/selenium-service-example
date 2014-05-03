@@ -109,22 +109,29 @@ async.series({
     });
   }
 }, function (error) {
-  // Close off the browser whatever happened.
-  global.browser.quit();
+  // Close off the browser whatever happened. This is asynchronous, so we have
+  // to wait for it before shutting down.
+  global.browser.quit(function (quitError) {
+    if (quitError) {
+      console.error('Error from browser.quit() after testing:');
+      console.error(error);
+    }
 
-  if (error) {
-    console.log(error);
-    process.exit(1);
-  }
+    if (error) {
+      console.error('Error from testing:');
+      console.error(error);
+      process.exit(1);
+    }
 
-  // Message the parent process to tell it what happened.
-  process.send({
-    failureCount: failureCount
+    // Message the parent process to tell it what happened.
+    process.send({
+      failureCount: failureCount
+    });
+
+    if (failureCount) {
+      process.exit(1);
+    } else {
+      process.exit(0);
+    }
   });
-
-  if (failureCount) {
-    process.exit(1);
-  } else {
-    process.exit(0);
-  }
 });

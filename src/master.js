@@ -253,7 +253,8 @@ exports.launchBrowserStackTunnel = function (callback) {
   });
 
   // Pipe both stdout and stderr to the specified log file.
-  var writer = fs.createWriteStream(path.join(__dirname, '..', this.config.browserstack.tunnel.log));
+  var logFilePath = path.join(__dirname, '..', this.config.log.directory, this.config.browserstack.tunnel.logfile);
+  var writer = fs.createWriteStream(logFilePath);
   this.tunnelProcess.stderr.pipe(writer);
   this.tunnelProcess.stdout.pipe(writer);
 
@@ -326,7 +327,7 @@ exports.launchSauceLabsTunnel = function(callback) {
   // The process will touch a file when the remote Selenium server has started
   // and it is ready for use.
   var readyFilePath = path.join(__dirname, this.config.saucelabs.tunnel.identifier + '-ready');
-  var logFile = path.join(__dirname, '..', this.config.saucelabs.tunnel.log);
+  var logFile = path.join(__dirname, '..', this.config.log.directory, this.config.saucelabs.tunnel.logfile);
 
   var args = [
     '--user',
@@ -420,7 +421,7 @@ exports.launchTestingBotTunnel = function(callback) {
   // The process will touch a file when the remote Selenium server has started
   // and it is ready for use.
   var readyFilePath = path.join(__dirname, this.config.testingbot.tunnel.identifier + '-ready');
-  var logFile = path.join(__dirname, '..', this.config.testingbot.tunnel.log);
+  var logFile = path.join(__dirname, '..', this.config.log.directory, this.config.testingbot.tunnel.logfile);
 
   // Note that tunnel identifier isn't passed in the arguments.
   var args = [
@@ -607,7 +608,7 @@ exports.runTestProcesses = function (callback) {
       wrapper.failureCount = message.failureCount;
     });
 
-    var logFile = path.join(__dirname, '..', 'logs', 'test-process-' + index + '.log');
+    var logFile = path.join(__dirname, '..', self.config.log.directory, self.config.log.workerLogPrefix + index + '.log');
     var writer = fs.createWriteStream(logFile);
     testProcess.stderr.pipe(writer);
     testProcess.stdout.pipe(writer);
