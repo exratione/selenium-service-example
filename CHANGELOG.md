@@ -6,6 +6,8 @@ Changelog
 
   * Add log prefix and directory configuration.
   * Ensure browser.quit() has time to finish at the end of a test.
+  * Fix config file specification to include Express server launch.
+  * The Express server is only launched if there is server configuration.
 
 0.0.7
 -----

@@ -14,6 +14,7 @@ var fs = require('fs');
 var path = require('path');
 var async = require('async');
 var uuid = require('uuid');
+var expressApp = require('../server/expressApp');
 
 //---------------------------------------------------------------------------
 // Properties that will be set.
@@ -177,9 +178,9 @@ exports.ensureLogDirectory = function (callback) {
  * doing much in the way of heavy lifting.
  */
 exports.startServer = function (callback) {
-  console.log('Starting local web server...');
-  exports.server = require('../server/expressApp');
-  console.log('Local web server started.');
+  if (this.config.launchExampleServer) {
+    expressApp.start(this.config);
+  }
   callback();
 };
 
@@ -187,14 +188,7 @@ exports.startServer = function (callback) {
  * Stop the Express server.
  */
 exports.stopServer = function (callback) {
-  if (!exports.server) {
-    return callback();
-  }
-  console.log('Halting local web server...');
-  exports.server.close(function () {
-    console.log('Local web server halted.');
-    callback();
-  });
+  expressApp.stop(callback);
 };
 
 //---------------------------------------------------------------------------

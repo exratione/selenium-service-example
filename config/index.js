@@ -26,6 +26,10 @@ module.exports = {
   // General settings for all services.
   // ------------------------------------------------------------------------
 
+  // Are we using the example server included here? Set this to false if
+  // experimenting with your own tests and server.
+  launchExampleServer: true,
+
   // The web server to run tests against.
   server: {
     protocol: 'http',
