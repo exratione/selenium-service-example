@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.6
+-----
+
+  * Update to BrowserStackLocal 2.0.
+
 0.0.5
 -----
 

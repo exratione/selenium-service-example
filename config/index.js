@@ -86,7 +86,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/BrowserStackLocal-1.7-linux-x64',
+      path: 'lib/BrowserStackLocal-2.0-linux-x64',
       // Logfile path.
       log: 'logs/browserstack.log',
       // Milliseconds to wait for the SSH tunnel connection to be established.
