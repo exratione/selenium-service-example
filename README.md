@@ -115,4 +115,7 @@ handling as great a number of test threads.
 In BrowserStack's case, you should not try to run more than about 8-10 parallel
 test threads through the same tunnel instance as it will definitely run into
 issues. If you want greater concurrency then run several tunnel instances in
-parallel and split your threads between them.
+parallel and split your threads between them. You will also have to impose a
+delay of 10-20 seconds between the launch of each tunnel instance, otherwise
+BrowserStack's server infrastructure becomes confused and may reject WebDriver
+initialization attempts.

@@ -535,6 +535,7 @@ exports.startTunnel = function (callback) {
  * @param {Function} callback
  */
 exports.stopTunnel = function (callback) {
+  var self = this;
   if (!this.tunnelProcess) {
     return callback();
   }
@@ -543,13 +544,26 @@ exports.stopTunnel = function (callback) {
 
   // Get rid of the error listener we put on the tunnel process.
   this.tunnelProcess.removeAllListeners('exit');
+  // Sends a SIGTERM to the process, but we should wait for it to clean up.
+  // Immediately killing a Selenium service SSH tunnel can lead to issues with
+  // some of the services.
   this.tunnelProcess.kill();
-  delete this.tunnelProcess;
 
-  // Note that the SauceLabs tunnels especially can take a little while to
-  // shut down in response to a kill signal - 15 seconds isn't unusual.
-  console.log('SSH tunnel sent kill signal.');
-  callback();
+  function callbackOnTunnelProcessExit() {
+    // The _handle property on a child process is set null when the process
+    // ends. This isn't a public property, so may evaporate in some future
+    // Node.js release, but it is useful.
+    if (self.tunnelProcess._handle) {
+      return;
+    }
+
+    clearInterval(intervalId);
+    delete self.tunnelProcess;
+    callback();
+  }
+
+  console.log('SSH tunnel sent kill signal, waiting for it to shut down.');
+  var intervalId = setInterval(callbackOnTunnelProcessExit, 1000);
 };
 
 //---------------------------------------------------------------------------

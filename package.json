@@ -8,7 +8,7 @@
     "browserstack",
     "testingbot"
   ],
-  "version": "0.0.8",
+  "version": "0.0.9",
   "homepage": "https://github.com/exratione/selenium-service-example",
   "author": "Reason <reason@exratione.com>",
   "engines": {

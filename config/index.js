@@ -81,7 +81,7 @@ module.exports = {
     // site for further capabilities and options.
     capabilities: {
       browser: 'Firefox',
-      browser_version: '26.0',
+      browser_version: '29.0',
       os: 'Windows',
       os_version: '8',
       // Uncomment for greater logging from the tunnel process.
@@ -97,7 +97,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/BrowserStackLocal-2.0-linux-x64',
+      path: 'lib/BrowserStackLocal-2.2-linux-x64',
       // Log file name. It will be written to the general log directory.
       logfile: 'browserstack.log',
       // Milliseconds to wait for the SSH tunnel connection to be established.
@@ -124,7 +124,7 @@ module.exports = {
     // site for further capabilities and options.
     capabilities: {
       browserName: 'firefox',
-      version: '26',
+      version: '29',
       platform : 'Windows 8',
       // This will be set automatically based the generated unique tunnel ID.
       // It is noted here for reference purposes - you don't need to edit it.
@@ -165,7 +165,7 @@ module.exports = {
     // site for further capabilities and options.
     capabilities: {
       browserName: 'firefox',
-      version: '26',
+      version: '29',
       platform: 'WINDOWS'
     },
 
