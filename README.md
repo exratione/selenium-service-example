@@ -32,6 +32,8 @@ npm install selenium-service-example
 
 ## Setup
 
+### Obtain an Account
+
 You will need to obtain a free account with one of the services noted above.
 This won't take long - it is a painless signup. Once registered you can find the
 necessary account name, API secret and/or key in your account settings.
@@ -45,6 +47,12 @@ A free account grants you access to very little in the way of resources, but
 it will be sufficient to try out this example of how to set up parallel end to
 end tests.
 
+### Update the Executable
+
+You will also probably need to update the tunnel x86_64 executable to the latest
+version. That can be downloaded from the service website, and the path to the
+executable updated in `config/index.js`.
+
 ## Running the Example Tests
 
 Fire up the Vagrant Ubuntu 12.04 VM; it will provision itself with the latest
@@ -54,11 +62,6 @@ stable Node.js version:
 vagrant up
 vagrant ssh
 ```
-
-Vagrant is used because the SSH tunnel binaries for SauceLabs and BrowserStack
-require glibc 2.15 or later as of January 2014. If your host machine is CentOS
-or an older version of another distro then the tunnel won't work locally - but
-it will in the VM.
 
 Once logged in to the Vagrant VM:
 
@@ -107,15 +110,18 @@ processes than to just dump them to logs.
 
 # Other Notes
 
-As of Q2 2014, the native binary SSH tunnels for SauceLabs and BrowserStack are
-still fairly new. They are not yet as robust as the old Java SSH tunnels that
-were used by these services up until Q1 2014, and nor are they as capable of
-handling as great a number of test threads.
+The native binary SSH tunnels for SauceLabs and BrowserStack are not capable of
+handling a large number of test threads.
 
 In BrowserStack's case, you should not try to run more than about 8-10 parallel
 test threads through the same tunnel instance as it will definitely run into
-issues. If you want greater concurrency then run several tunnel instances in
-parallel and split your threads between them. You will also have to impose a
+issues. If your test loads many files or otherwise stresses the network capacity
+then the tunnel will support even less concurrency.
+
+If you want more tests running at once then run several tunnel instances in
+parallel and split your threads between them. You will have to impose a
 delay of 10-20 seconds between the launch of each tunnel instance, otherwise
 BrowserStack's server infrastructure becomes confused and may reject WebDriver
-initialization attempts.
+initialization attempts. Running multiple tunnels concurrently on the same
+machine has also been shown to run into some of the same network capacity issues
+if any of the tests make a large number of requests.
