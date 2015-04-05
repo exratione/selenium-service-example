@@ -1,0 +1,1008 @@
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://hln.be/ HTTP/1.1" 500 - [0, 5] java.io.IOException: Broken pipe
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/ HTTP/1.1" 200 32761 [0, 6] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/static/nmc/adv/js/integration_new.js HTTP/1.1" 200 238 [0, 20] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://stats.persgroep.be/statistics.js?publ=hln&type=navigatie&id=1 HTTP/1.1" 200 0 [0, 6] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/static/nmc/adv/js/dart_new_hln.js HTTP/1.1" 200 235 [0, 19] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/static/nmc/nmc/head/autodeploy.css?05042013 HTTP/1.1" 200 4041 [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static0.hln.be/hln/js/spring.js?3.5.1.64657.6 HTTP/1.1" 200 2435 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/js/jquery/jquery-ui/css/smoothness/jquery-ui-1.8.13.custom.css?3.5.1.64657.6 HTTP/1.1" 200 6266 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/static/nmc/prm/topnav/Het-Laatste-Nieuws-abonnement.gif HTTP/1.1" 200 - [0, 22] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static0.hln.be/images/logos/logo_hetlaatstenieuws.gif?3.4.1.59063.18 HTTP/1.1" 200 712 [0, 23] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/js/hln_site.js?3.5.1.64657.6 HTTP/1.1" 200 6451 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/css/hln_app.css?3.5.1.64657.6 HTTP/1.1" 200 2417 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/css/hln_site.css?3.5.1.64657.6 HTTP/1.1" 200 18921 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/js/jquery/jquery.tweet.js?3.5.1.64657.6 HTTP/1.1" 200 12912 [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.hln.be/static/nmc/adv/js/hooks.js?3.5.1.64657.6 HTTP/1.1" 200 242 [0, 23] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/css/teaser.css?3.5.1.64657.6 HTTP/1.1" 200 18586 [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static1.hln.be/images/general/icon_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 579 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static3.hln.be/hln/js/jstorage.js?3.5.1.64657.6 HTTP/1.1" 200 14485 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static1.hln.be/hln/js/jquery/jquery.plugincontainer.js?3.5.1.64657.6 HTTP/1.1" 200 9122 [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static.regiojobs.be/jobs/alg/js/regiojobs_jquery.js?v=139840.0 HTTP/1.1" 200 4063 [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://foto.autozone.be/autodeploy/scripts/az_teaser_jquery.js?v=12 HTTP/1.1" 200 3424 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_fill_models.js?fillMakesWhich=usedCars HTTP/1.1" 200 10328 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_model_combo.js HTTP/1.1" 200 463 [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static3.hln.be/hln/js/pes/common.js?3.5.1.64657.6 HTTP/1.1" 200 54956 [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static0.hln.be/static/nmc/adv/js/dart_new_hln.js HTTP/1.1" 200 5196 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static0.hln.be/static/nmc/adv/js/integration_new.js HTTP/1.1" 200 8440 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static2.hln.be/hln/js/jquery/jquery.js?3.5.1.64657.6 HTTP/1.1" 200 91572 [0, 11] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_fill_makes.js?fillMakesWhich=usedCars HTTP/1.1" 200 1174 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:12 GMT "GET http://static3.hln.be/images/general/icon_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 579 [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/9/0/8/20130412112442/teaser_1_2_5725583.jpg HTTP/1.1" 200 2792 [0, 35] imageratio:2792/6854=0.407
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/9/16/10/20130412114718/media_l_5725735.jpg HTTP/1.1" 200 3017 [0, 8] imageratio:3017/8065=0.374
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/12/12/10/20130412105636/media_l_5725510.jpg HTTP/1.1" 200 2017 [0, 17] imageratio:2017/6058=0.333
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/11/11/2/20130412121139/media_l_5725832.jpg HTTP/1.1" 200 2483 [0, 28] imageratio:2483/7313=0.340
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/images/logos/hln_logo.png?3.5.1.64657.6 HTTP/1.1" 200 2143 [0, 24] imageratio:2143/8141=0.263
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/6/8/1/20130412122713/teaser_1_2_5725846.jpg HTTP/1.1" 200 4558 [0, 36] imageratio:4558/13774=0.331
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07_header.png?3.5.1.64657.6 HTTP/1.1" 200 1194 [0, 25] imageratio:1194/20350=0.059
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/11/1/12/20130412114909/teaser_1_2_5725737.jpg HTTP/1.1" 200 3348 [0, 15] imageratio:3348/8517=0.393
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/11/7/9/20130412120235/media_l_5725794.jpg HTTP/1.1" 200 1998 [0, 29] imageratio:1998/4488=0.445
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/images/logos/logo_hln_tv_small.png HTTP/1.1" 200 905 [0, 31] imageratio:905/3492=0.259
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/17/7/3/20130412114954/teaser_1_2_5725743.jpg HTTP/1.1" 200 2934 [0, 38] imageratio:2934/7460=0.393
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/17/4/8/20130412110056/media_l_5725553.jpg HTTP/1.1" 200 2908 [0, 30] imageratio:2908/8203=0.355
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/18/10/8/20130412115029/teaser_1_2_5725763.jpg HTTP/1.1" 200 3206 [0, 14] imageratio:3206/8854=0.362
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/12/2/13/20130412114932/teaser_1_2_5725738.jpg HTTP/1.1" 200 3318 [0, 21] imageratio:3318/9470=0.350
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/14/7/2/20130412111356/teaser_1_2_5725607.jpg HTTP/1.1" 200 4400 [0, 34] imageratio:4400/13400=0.328
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/15/4/10/20130412111104/teaser_1_2_5725570.jpg HTTP/1.1" 200 4311 [0, 37] imageratio:4311/12546=0.344
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/4/0/9/20130412105711/teaser_1_2_5725464.jpg HTTP/1.1" 200 2625 [0, 6] imageratio:2625/7379=0.356
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/10/0/11/20130412114846/teaser_1_2_5725736.jpg HTTP/1.1" 200 2605 [0, 40] imageratio:2605/7165=0.364
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/general/bt_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 804 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/12/10/13/20130412090008/media_l_5725168.jpg HTTP/1.1" 200 2004 [0, 35] imageratio:2004/4796=0.418
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/15/15/6/20130412121503/media_xl_5725836.jpg HTTP/1.1" 200 4535 [0, 33] imageratio:4535/10404=0.436
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/3/11/2/20130412112029/media_l_5725577.jpg HTTP/1.1" 200 2173 [0, 7] imageratio:2173/6876=0.316
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/12/3/3/20130412093537/media_xll_5725263.jpg HTTP/1.1" 200 5738 [0, 27] imageratio:5738/19119=0.300
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/2/15/0/20130412115121/teaser_1_2_5725785.jpg HTTP/1.1" 200 2649 [0, 17] imageratio:2649/7799=0.340
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/images/general/bt_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 804 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/11/11/1/20130412090046/media_l_5725186.jpg HTTP/1.1" 200 2272 [0, 11] imageratio:2272/5533=0.411
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/4/0/1/20130412092735/media_xll_5725141.jpg HTTP/1.1" 200 6227 [0, 16] imageratio:6227/18278=0.341
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/15/13/9/20130412113554/album_small_5725494.jpg HTTP/1.1" 200 2350 [0, 28] imageratio:2350/6027=0.390
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/9/6/9/20130412113554/album_small_5723379.jpg HTTP/1.1" 200 1375 [0, 36] imageratio:1375/2395=0.574
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/14/13/14/20130412112926/teaser_1_2_5725664.jpg HTTP/1.1" 200 4721 [0, 18] imageratio:4721/14442=0.327
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/nmc/prm/abonnement/banners/20130108_abonnement_banner_306x175.gif?1 HTTP/1.1" 200 5289 [0, 41] imageratio:5289/19358=0.273
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/10/9/9/20130412113554/album_small_5720169.jpg HTTP/1.1" 200 2248 [0, 25] imageratio:2248/5659=0.397
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/0/11/8/20130412082738/media_l_5725118.jpg HTTP/1.1" 200 2210 [0, 29] imageratio:2210/7021=0.315
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/11/15/9/20130412092148/media_l_5725224.jpg HTTP/1.1" 200 3085 [0, 9] imageratio:3085/8793=0.351
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/16/9/3/20130412054421/media_l_5724963.jpg HTTP/1.1" 200 1984 [0, 14] imageratio:1984/5181=0.383
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/14/9/5/20130412060341/media_l_5724980.jpg HTTP/1.1" 200 2518 [0, 37] imageratio:2518/7996=0.315
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/5/4/4/20130412062142/media_l_5725009.jpg HTTP/1.1" 200 2566 [0, 30] imageratio:2566/7041=0.364
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/18/4/6/20130411104724/teaser_1_11_5722476.jpg HTTP/1.1" 200 2429 [0, 40] imageratio:2429/5767=0.421
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/18/12/1/20130411150542/teaser_1_11_5723521.jpg HTTP/1.1" 200 1903 [0, 35] imageratio:1903/4822=0.395
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/0/14/1/20130411173132/teaser_1_11_5724016.jpg HTTP/1.1" 200 1863 [0, 10] imageratio:1863/5618=0.332
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/7/1/1/20130412115318/media_l_5725771.jpg HTTP/1.1" 200 2138 [0, 11] imageratio:2138/4176=0.512
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/1/16/1/20130411211606/media_xll_5724511.jpg HTTP/1.1" 200 5385 [0, 15] imageratio:5385/20500=0.263
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/16/9/4/20130412111648/media_l_5725609.jpg HTTP/1.1" 200 3094 [0, 16] imageratio:3094/10697=0.289
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/general/thumb_fotoreeks.gif HTTP/1.1" 200 1284 [0, 21] imageratio:1284/2910=0.441
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/6/9/6/20130412101602/media_l_5725371.jpg HTTP/1.1" 200 2598 [0, 8] imageratio:2598/7081=0.367
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/11/12/7/20130412100758/teaser_1_11_5725357.jpg HTTP/1.1" 200 1859 [0, 6] imageratio:1859/6130=0.303
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/6/4/8/20130412121052/media_l_5725808.jpg HTTP/1.1" 200 2624 [0, 7] imageratio:2624/7977=0.329
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/0/7/1/20130412114318/media_l_5725726.jpg HTTP/1.1" 200 2288 [0, 17] imageratio:2288/5519=0.415
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/15/14/14/20130412070029/media_l_5725019.jpg HTTP/1.1" 200 2418 [0, 31] imageratio:2418/7033=0.344
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/9/10/13/20130412113626/album_small_5725678.jpg HTTP/1.1" 200 2141 [0, 38] imageratio:2141/5576=0.384
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/10/4/4/20130412115739/media_l_5725774.jpg HTTP/1.1" 200 1945 [0, 27] imageratio:1945/3851=0.505
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/8/4/6/20130412121711/media_xll_5725791.jpg HTTP/1.1" 200 5451 [0, 33] imageratio:5451/12554=0.434
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/8/3/13/20130407023608/teaser_1_9_5709793.jpg HTTP/1.1" 200 2001 [0, 36] imageratio:2001/4835=0.414
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/0/7/8/20130412103055/media_l_5725403.jpg HTTP/1.1" 200 1866 [0, 9] imageratio:1866/4796=0.389
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/images/general/icon_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 579 [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/11/10/3/20130412100520/media_l_5725338.jpg HTTP/1.1" 200 2155 [0, 25] imageratio:2155/6917=0.312
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/12/13/0/20130412071537/media_l_5725035.jpg HTTP/1.1" 200 2224 [0, 34] imageratio:2224/5005=0.444
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/6/2/14/20130408114152/teaser_1_9_5712869.jpg HTTP/1.1" 200 2494 [0, 28] imageratio:2494/6625=0.376
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/5/0/4/20130412093554/media_l_5725294.jpg HTTP/1.1" 200 2727 [0, 37] imageratio:2727/7797=0.350
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/16/2/1/20130412102330/teaser_1_2_5725381.jpg HTTP/1.1" 200 3243 [0, 35] imageratio:3243/11900=0.273
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/6/15/11/20130412114733/teaser_1_2_5725751.jpg HTTP/1.1" 200 2467 [0, 10] imageratio:2467/8158=0.302
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js HTTP/1.1" 200 7090 [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/nmc/adv/js/hooks.js?3.5.1.64657.6 HTTP/1.1" 200 5135 [0, 33] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/hln/js/jquery/jquery.ui.js?3.5.1.64657.6 HTTP/1.1" 200 212684 [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/0/2/9/20130412091107/media_l_5725194.jpg HTTP/1.1" 200 2018 [0, 29] imageratio:2018/5669=0.356
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/4/7/11/20130412071942/teaser_1_2_5725046.jpg HTTP/1.1" 200 2500 [0, 9] imageratio:2500/5814=0.430
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/13/1/9/20130412074824/teaser_1_2_5725074.jpg HTTP/1.1" 200 2647 [0, 28] imageratio:2647/7706=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/15/3/11/20130412074851/teaser_1_2_5725076.jpg HTTP/1.1" 200 4105 [0, 27] imageratio:4105/10874=0.378
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/8/11/0/20130412072151/teaser_1_2_5725050.jpg HTTP/1.1" 200 3171 [0, 10] imageratio:3171/7356=0.431
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/16/2/8/20130412074756/teaser_1_2_5725058.jpg HTTP/1.1" 200 2483 [0, 34] imageratio:2483/6873=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/15/1/7/20130412074726/teaser_1_2_5725057.jpg HTTP/1.1" 200 3246 [0, 17] imageratio:3246/8867=0.366
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/14/7/1/20130412051852/teaser_1_2_5724961.jpg HTTP/1.1" 200 2520 [0, 25] imageratio:2520/6980=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/10/0/3/20130412103011/teaser_1_2_5725413.jpg HTTP/1.1" 200 2856 [0, 6] imageratio:2856/8942=0.319
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/az_logo_poweredby.gif?v=2 HTTP/1.1" 200 1384 [0, 31] imageratio:1384/3425=0.404
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/1/15/11/20130412054827/teaser_1_2_5724986.jpg HTTP/1.1" 200 2965 [0, 40] imageratio:2965/8488=0.349
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/18/4/10/20130412075004/teaser_1_2_5725060.jpg HTTP/1.1" 200 2972 [0, 37] imageratio:2972/8230=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/17/3/9/20130412074924/teaser_1_2_5725059.jpg HTTP/1.1" 200 3954 [0, 7] imageratio:3954/14339=0.276
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/14/15/2/20130412071612/teaser_1_2_5725037.jpg HTTP/1.1" 200 2675 [0, 16] imageratio:2675/6845=0.391
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/12/0/1/20130412102624/media_l_5725396.jpg HTTP/1.1" 200 2244 [0, 41] imageratio:2244/5598=0.401
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/1/2/4/20130412071321/teaser_1_2_5725024.jpg HTTP/1.1" 200 4010 [0, 38] imageratio:4010/14338=0.280
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/13/6/0/20130412051600/teaser_1_2_5724960.jpg HTTP/1.1" 200 4626 [0, 14] imageratio:4626/13017=0.355
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/17/5/6/20130412102933/teaser_1_2_5725401.jpg HTTP/1.1" 200 4122 [0, 15] imageratio:4122/12367=0.333
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/18/16/12/20130412105150/media_xll_5725497.jpg HTTP/1.1" 200 6303 [0, 18] imageratio:6303/24474=0.258
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/4/9/0/20130412072553/teaser_1_2_5725065.jpg HTTP/1.1" 200 3584 [0, 8] imageratio:3584/9952=0.360
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/18/9/1/20130412040227/media_m_5724946.jpg HTTP/1.1" 200 1727 [0, 35] imageratio:1727/3958=0.436
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/17/1/5/20130412071758/teaser_1_2_5725040.jpg HTTP/1.1" 200 3377 [0, 21] imageratio:3377/9476=0.356
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/6/11/10/20130412101836/teaser_1_2_5725390.jpg HTTP/1.1" 200 2786 [0, 11] imageratio:2786/8112=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/16/6/9/20130412104138/media_l_5725419.jpg HTTP/1.1" 200 2713 [0, 30] imageratio:2713/7310=0.371
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/12/7/3/20130412051133/teaser_1_2_5724978.jpg HTTP/1.1" 200 3471 [0, 33] imageratio:3471/10118=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/8/9/12/20130412113554/album_large_5725677.jpg HTTP/1.1" 200 25251 [0, 24] imageratio:25251/124572=0.203
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/12/3/9/20130411193719/teaser_1_2_5724294.jpg HTTP/1.1" 200 3057 [0, 27] imageratio:3057/7413=0.412
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/6/1/12/20130412050356/teaser_1_2_5724972.jpg HTTP/1.1" 200 2847 [0, 29] imageratio:2847/8180=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/11/8/5/20130411202406/teaser_1_2_5724350.jpg HTTP/1.1" 200 3103 [0, 9] imageratio:3103/8819=0.352
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/13/8/4/20130412051333/teaser_1_2_5724979.jpg HTTP/1.1" 200 3671 [0, 12] imageratio:3671/11142=0.329
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/static/photo/2013/8/4/11/20130411185013/teaser_1_2_5724176.jpg HTTP/1.1" 200 3057 [0, 10] imageratio:3057/8644=0.354
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/static/photo/2013/10/1/14/20130411171039/teaser_1_2_5723969.jpg HTTP/1.1" 200 2554 [0, 17] imageratio:2554/6974=0.366
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/11/11/7/20130411190157/teaser_1_2_5724217.jpg HTTP/1.1" 200 4397 [0, 34] imageratio:4397/12540=0.351
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static0.hln.be/static/photo/2013/13/4/10/20130411193833/teaser_1_2_5724295.jpg HTTP/1.1" 200 2030 [0, 28] imageratio:2030/4565=0.445
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/autozone_powered_large.gif?v=2 HTTP/1.1" 200 1083 [0, 36] imageratio:1083/2987=0.363
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07.png HTTP/1.1" 200 788 [0, 39] imageratio:788/2265=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07.png?3.5.1.64657.6 HTTP/1.1" 200 788 [0, 26] imageratio:788/2265=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype02.png HTTP/1.1" 200 776 [0, 13] imageratio:776/2639=0.294
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/images/general/bt_play.png HTTP/1.1" 200 793 [0, 32] imageratio:793/2090=0.379
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static1.hln.be/images/general/icon_video_small.png HTTP/1.1" 200 825 [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static3.hln.be/images/general/bt_play.png HTTP/1.1" 200 793 [0, 41] imageratio:793/2090=0.379
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static.regiojobs.be/jobs/alg/gif/rj_logo.gif HTTP/1.1" 200 1746 [0, 31] imageratio:1746/5983=0.292
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:13 GMT "GET http://static2.hln.be/static/photo/2013/1/6/12/20130412091537/media_l_5725062.jpg HTTP/1.1" 200 2474 [0, 6] imageratio:2474/5379=0.460
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/images/general/bt_play_small.png HTTP/1.1" 200 992 [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static3.hln.be/images/general/bt_play_small.png HTTP/1.1" 200 992 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/hln/images/logos/acap.gif HTTP/1.1" 200 656 [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/static/photo/2013/12/5/14/20130412050728/teaser_1_2_5724959.jpg HTTP/1.1" 200 3037 [0, 15] imageratio:3037/10831=0.280
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/images/general/bt_play_small.png HTTP/1.1" 200 992 [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/static/photo/2013/1/3/10/20130412091203/media_m_5725195.jpg HTTP/1.1" 200 1296 [0, 25] imageratio:1296/2944=0.440
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/static/photo/2013/15/15/6/20130412121503/media_m_5725836.jpg HTTP/1.1" 200 1323 [0, 38] imageratio:1323/2450=0.540
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static3.hln.be/static/photo/2013/7/16/9/20130411165531/media_m_5723814.jpg HTTP/1.1" 200 1303 [0, 21] imageratio:1303/2168=0.601
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/static/photo/2013/14/10/12/20130412120448/media_m_5725797.jpg HTTP/1.1" 200 1733 [0, 37] imageratio:1733/3838=0.452
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/hln/images/logos/reprocopy.gif HTTP/1.1" 200 1082 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/hln/images/logos/mediargus.gif HTTP/1.1" 200 1305 [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/images/logos/logo_dpd.jpg HTTP/1.1" 200 950 [0, 9] imageratio:950/8309=0.114
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/static/photo/2013/0/5/11/20130412075404/media_m_5725061.jpg HTTP/1.1" 200 1399 [0, 35] imageratio:1399/3243=0.431
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/static/photo/2013/1/5/6/20130412014959/media_l_5724891.jpg HTTP/1.1" 200 3161 [0, 7] imageratio:3161/7280=0.434
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/static/photo/2013/8/5/9/20130411182324/media_l_5724024.jpg HTTP/1.1" 200 3279 [0, 8] imageratio:3279/8262=0.397
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/images/weather/weathertype/weather_weathertype05.png HTTP/1.1" 200 1804 [0, 36] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/static/nmc/prm/topnav/Het-Laatste-Nieuws-abonnement.gif HTTP/1.1" 200 1171 [0, 28] imageratio:1171/2757=0.425
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/hln/images/logos/cim_internet.png?3.5.1.64657.6 HTTP/1.1" 200 1007 [0, 17] imageratio:1007/8313=0.121
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoNina.gif HTTP/1.1" 200 - [0, 30] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoGoedGevoel.gif HTTP/1.1" 200 - [0, 33] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/lp/nav/logoDieetlijn.gif HTTP/1.1" 200 - [0, 11] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoVacature.png HTTP/1.1" 200 - [0, 24] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://buttons.googlesyndication.com/fusion/add.gif HTTP/1.1" 200 2068 [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/favicon.ico?3.5.1.64657.6 HTTP/1.1" 200 32988 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/css/font_you.css HTTP/1.1" 200 217 [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/css/font.css HTTP/1.1" 200 223 [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/static/nmc/nmc/bottom/logos/logoGoedGevoel.gif HTTP/1.1" 200 950 [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static3.hln.be/static/nmc/nmc/bottom/logos/logoVacature.png HTTP/1.1" 200 1412 [0, 7] imageratio:1412/4224=0.334
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/static/nmc/nmc/bottom/logos/logoNina.gif HTTP/1.1" 200 1075 [0, 15] imageratio:1075/2070=0.519
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static1.hln.be/static/nmc/nmc/lp/nav/logoDieetlijn.gif HTTP/1.1" 200 1091 [0, 34] imageratio:1091/2732=0.399
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.googletagservices.com/tag/js/gpt.js HTTP/1.1" 304 - [0, 6] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/fonts/BebasNeue-webfont.woff HTTP/1.1" 200 14002 [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/fonts/Ubuntu-R-webfont.woff HTTP/1.1" 200 19306 [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://partner.googleadservices.com/gampad/google_ads_gpt.js HTTP/1.1" 304 - [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/caps/capsLoading.html HTTP/1.1" 200 - [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.hln.be/static/nmc/nmc/caps/capsLoading.html HTTP/1.1" 200 - [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://hln7sur7.tnsinternet.be/survey.js HTTP/1.1" 200 429 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://hln7sur7.tnsinternet.be/j0=,,,;+,cp=ss_hlnhome/nw/1/homepage/home+lang=NL+url=http%3A//www.hln.be/;;;?lt=hff7z57e&x=2560x1440x24 HTTP/1.1" 200 - [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static0.hln.be/static/nmc/nmc/caps/capsLoading.html HTTP/1.1" 200 280 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.1&utms=1&utmn=1058623913&utmhn=www.hln.be&utme=8(3!channel)9(3!homepage)&utmcs=UTF-8&utmsr=2560x1440&utmvp=2560x1305&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=HLN.be%2C%20Nieuws%2C%20sport%20en%20showbizz%2C%2024%2F24%2C%207%2F7%2C%20meer%20dan%20350%20nieuwsupdates%20per%20dag&utmhid=1640939311&utmr=-&utmp=%2F&utmht=1365762914421&utmac=UA-187881-4&utmcc=__utma%3D129496467.868955272.1306520587.1356170902.1365762914.7%3B%2B__utmz%3D129496467.1337970344.3.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qR~ HTTP/1.1" 200 35 [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.1&utms=1&utmn=2079447670&utmhn=www.hln.be&utmcs=UTF-8&utmsr=2560x1440&utmvp=2560x1305&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=HLN.be%2C%20Nieuws%2C%20sport%20en%20showbizz%2C%2024%2F24%2C%207%2F7%2C%20meer%20dan%20350%20nieuwsupdates%20per%20dag&utmhid=1640939311&utmr=-&utmp=%2F&utmht=1365762914438&utmac=UA-10861327-6&utmcc=__utma%3D1.713881372.1306520587.1356170902.1365762914.6%3B%2B__utmz%3D1.1337970344.2.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qRAg~ HTTP/1.1" 200 35 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=3098782194796225&output=json_html&callback=googletag.impl.pubads.setAdContentsBySlotForSync&impl=ss&json_a=1&iu_parts=7594%2Cdpd-be%2Chln%2Chln.home%2Chome&enc_prev_ius=%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4&prev_iu_szs=840x150%2C300x600%2C300x600%2C300x600%2C468x400%2C468x400%2C468x400%2C300x150&prev_scp=formaat%3D840x150%26positie%3Dleader1%7Cformaat%3D300x600%26positie%3Dsky1%7Cformaat%3D300x600%26positie%3Dsky2%7Cformaat%3D300x600%26positie%3Dsky3%7Cformaat%3D468x400%26positie%3Dimu1%7Cformaat%3D468x400%26positie%3Dimu2%7Cformaat%3D468x400%26positie%3Dimu3%7Cformaat%3D300x150%26positie%3Dbox1&cust_params=adops%3Dnull%26dossier%3Dnull%26pagetype%3Dnavigatie%26node%3D%26compid%3Dnull%26comptype%3Dnull%26plaats%3D&cookie=ID%3D76b36fd93ec29459%3AT%3D1343919291%3AS%3DALNI_MYmtMX8Tu-lzhmlXctiVlihcY7DWg&lmt=1365762798&dt=1365762914338&cc=100&biw=2560&bih=1305&oid=3&gut=v2&ifi=1&u_tz=120&u_his=2&u_java=true&u_h=1440&u_w=2560&u_ah=1440&u_aw=2560&u_cd=24&u_nplug=13&u_nmime=80&u_sd=1&flash=11.6.602&url=http%3A%2F%2Fwww.hln.be%2F&adks=1123213927%2C3815601870%2C3815601871%2C3815601868%2C1209521175%2C1209521174%2C1209521173%2C3928633365&vrg=20&vrp=20&ga_vid=1614994515.1365762914&ga_sid=1365762914&ga_hid=531728140&ga_wpids=UA-187881-4 HTTP/1.1" 200 721 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/hln/images/buttons/icon_busy.gif?20121128 HTTP/1.1" 200 684 [0, 10] imageratio:684/2767=0.247
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://connect.facebook.net/nl_NL/all.js HTTP/1.1" 200 58989 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://hln7sur7.tnsinternet.be/blank.gif HTTP/1.1" 200 43 [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://static2.hln.be/hln/css/hln_site.css?20121128 HTTP/1.1" 200 18532 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:14 GMT "GET http://qds.tnsinternet.be/?http%3A%2F%2Fwww.hln.be%2F&hff7z5cq HTTP/1.1" 200 - [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/static/nmc/adv/partners/Pokerstars_Artikelbox_NL_090413.jpg HTTP/1.1" 200 - [0, 37] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/hln/xmlXsltAjaxTeaser.do?language=nl&teaserId=2398683 HTTP/1.1" 200 32 [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/hln/xmlXsltAjaxTeaser.do?language=nl&teaserId=685343 HTTP/1.1" 200 405 [0, 38] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/bt-jnt-next.gif HTTP/1.1" 200 53 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/i.gif HTTP/1.1" 200 47 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/vacature/hln-banner.html HTTP/1.1" 200 470 [0, 36] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/static/nmc/nmc/head/header.gif HTTP/1.1" 200 - [0, 39] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/hdr_weather_grad.png?3.2.1.55835.2 HTTP/1.1" 200 177 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/bt_search.gif HTTP/1.1" 200 370 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/bt-jnt-prev.gif HTTP/1.1" 200 53 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/bt-jnt-play-pause.gif HTTP/1.1" 200 55 [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/regiojobs/teasers/toppers_hln_mini.jsp?aantal=5 HTTP/1.1" 200 1502 [0, 42] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/black_40p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/icon_label_video.png?3.2.1.55835.2 HTTP/1.1" 200 291 [0, 31] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/tn_photo.png?3.2.1.55835.2 HTTP/1.1" 200 1156 [0, 25] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/arrow_actua.gif HTTP/1.1" 200 731 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/logos/you_logo_small.png?3.2.1.55835.2 HTTP/1.1" 200 746 [0, 32] imageratio:746/3801=0.196
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/labels.png?3.2.1.55835.2?123 HTTP/1.1" 200 1041 [0, 41] imageratio:1041/6072=0.171
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/m24/hln/ HTTP/1.1" 200 1226 [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/immoweb/SearchEngineIframe.cfm HTTP/1.1" 200 - [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/regiojobs/teasers/artikel_teaser_hln.jsp?versie=2 HTTP/1.1" 200 459 [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/static/nmc/prm/box/dag_9april.swf HTTP/1.1" 200 - [0, 44] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/autozone/auto_j2ee/aanbod/pag/a_artikels_auto55_teaser.jsp?locale=nl_BE&aantalArtikels=2&versie=smallHP&utmSource=hln&utmMedium=teaserHP&utmCampaign=AZauto55 HTTP/1.1" 200 473 [0, 43] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.facebook.com/plugins/recommendations.php?locale=nl_BE&site=www.hln.be&width=304&height=330&header=false&colorscheme=light&linktarget=_blank&border_color=white&font&max_age=3 HTTP/1.1" 200 - [0, 28] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.facebook.com/plugins/activity.php?locale=nl_BE&site=www.hln.be&width=304&height=330&header=false&colorscheme=light&linktarget=_blank&border_color=white&font&recommendations=false&max_age=3 HTTP/1.1" 200 - [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_vtm.png HTTP/1.1" 200 875 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/static/nmc/prm/newsletter/registratie/newsletter_registratie_footer.html HTTP/1.1" 200 954 [0, 28] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/autozone/auto_j2ee/aanbod/pag/a_hln_integratie_zoek.jsp?locale=nl_BE&versie=occasies&searchBrandstofOcc=true&searchPrijsFromOcc=true&searchPrijsTotOcc=true&searchAllOcc=true&utmSource=hln&utmMedium=teaserHP&utmCampaign=AZsearchOccasies HTTP/1.1" 200 1002 [0, 41] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_vier.png HTTP/1.1" 200 1509 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/vacature/hln4-banner.html HTTP/1.1" 200 431 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_een.png HTTP/1.1" 200 1359 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.hln.be/vacature/hln-jobticker.html HTTP/1.1" 200 2887 [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/tvgids.gif HTTP/1.1" 200 1763 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://foto.autozone.be/fotosartikelen/W150H9999Q100/20/38/Bugatti-Veyron-snelste-cabrio-ter-wereld_0004203851.jpg HTTP/1.1" 200 1271 [0, 50] imageratio:1271/2764=0.460
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_2be.png HTTP/1.1" 200 735 [0, 13] imageratio:735/2087=0.352
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://foto.autozone.be/fotosartikelen/W150H9999Q100/20/12/Citroen-DS-Wild-Rubis-is-design-SUV_0004201282.jpg HTTP/1.1" 200 1546 [0, 51] imageratio:1546/4145=0.373
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_vijf.png HTTP/1.1" 200 1383 [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_vitaya.png HTTP/1.1" 200 1264 [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static0.hln.be/images/logos/channel_canvas.png HTTP/1.1" 200 755 [0, 17] imageratio:755/2745=0.275
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static3.hln.be//hln/images/logos/co2stats_badge.png HTTP/1.1" 200 1038 [0, 25] imageratio:1038/5150=0.202
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/vacature_topjobs.gif?123 HTTP/1.1" 200 608 [0, 55] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/black_5p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 56] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/social_tools.gif HTTP/1.1" 200 2627 [0, 38] imageratio:2627/12309=0.213
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/hln/images/general/black_10p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static1.hln.be/static/nmc/nmc/head/header.gif HTTP/1.1" 200 1678 [0, 34] imageratio:1678/8097=0.207
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static2.hln.be/immoweb/SearchEngineIframe.cfm HTTP/1.1" 200 3245 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://www.regiojobs.be/autodeploy/regiojobs/artikelteaser/rj_logo_teaser.gif HTTP/1.1" 200 1983 [0, 47] imageratio:1983/8047=0.246
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://statistics.persgroep.be/wwwjobs/statistics.gif?statistics_placement_id=JOBS_TOPBAAN_HLN&statistics_actie=VIEW&statistics_zoek_id=6107298&statistics_klant_id=551870&statistics_hash=2Ec4yAqe1hNqxkUQc+SbiA==&statistics_size=1 HTTP/1.1" 200 49 [0, 31] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://statistics.persgroep.be/wwwjobs/statistics.gif?statistics_placement_id=JOBS_TOPBAAN_HLN&statistics_actie=VIEW&statistics_zoek_id=6096753&statistics_zoek_id=6096752&statistics_zoek_id=6096750&statistics_zoek_id=6096741&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_hash=tmhmRsCUm8i4TUuTiO8OoA==&statistics_size=4 HTTP/1.1" 200 49 [0, 32] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.netto.tijd.be/i/01/d3/34.250.jpeg?ts=1365509300000 HTTP/1.1" 200 2140 [0, 43] imageratio:2140/9493=0.225
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/search_value_nl.gif HTTP/1.1" 200 1623 [0, 53] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/search_button.gif HTTP/1.1" 200 1036 [0, 54] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.netto.tijd.be/i/01/af/40.250.jpeg?ts=1332501051000 HTTP/1.1" 200 2258 [0, 26] imageratio:2258/9204=0.245
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln2/public/dr-barbie.jpg HTTP/1.1" 200 1186 [0, 36] imageratio:1186/2560=0.463
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://foto.regiojobs.be/logosklant/logo_bedrijf_miniId_239111/COLRUYT---Jobmarkt-Antwerpen.jpg?refresh=10072011213617 HTTP/1.1" 200 1186 [0, 42] imageratio:1186/3011=0.394
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln2/public/colruyt.jpg HTTP/1.1" 200 1507 [0, 21] imageratio:1507/4261=0.354
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/y1/r/GbL5UMVTlQR.js HTTP/1.1" 200 20752 [0, 57] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:15 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/head_netto_510.png HTTP/1.1" 200 1451 [0, 52] imageratio:1451/16342=0.089
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://www.hln.be/static/nmc/prm/newsletter/registratie/newsletter_registratie_promoblok.css HTTP/1.1" 200 3227 [0, 31] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yw/r/-vXAXn9Iqy1.js HTTP/1.1" 200 5594 [0, 59] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yA/r/7-qceYKZwdl.css HTTP/1.1" 200 4008 [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.regiojobs.be/autodeploy/gif/RJ_logo_teaser.gif HTTP/1.1" 200 981 [0, 7] imageratio:981/2068=0.474
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.regiojobs.be/autodeploy/regiojobs/topjobteaser/bt_bg.gif?v=2 HTTP/1.1" 200 96 [0, 41] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static2.hln.be/immoweb/SearchEngineIframe.css HTTP/1.1" 200 1111 [0, 36] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static2.hln.be/immoweb/SlideItMoo/slideitmoo-1.2-mootools-1.3.js HTTP/1.1" 200 2380 [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln4/public/13_1425.jpg HTTP/1.1" 200 2549 [0, 10] imageratio:2549/7774=0.328
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://media.vacature.com/themes/vacref_v3/images/logos_150px/vac_transp.png HTTP/1.1" 200 1270 [0, 47] imageratio:1270/4301=0.295
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.regiojobs.be/autodeploy/regiojobs/topjobteaser/zoek_home_bg_v2.gif HTTP/1.1" 200 2217 [0, 28] imageratio:2217/14456=0.153
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static2.hln.be/static/nmc/adv/partners/Pokerstars_Artikelbox_NL_090413.jpg HTTP/1.1" 200 3914 [0, 8] imageratio:3914/30542=0.128
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/btn_search.jpg?v=1 HTTP/1.1" 200 794 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.regiojobs.be/fotosartikelen/W600H9999Q100/06/16/Lentekriebels-op-het-werk_0004061676.jpg HTTP/1.1" 200 7688 [0, 48] imageratio:7688/26080=0.295
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://foto.regiojobs.be/fotosartikelen/W600H9999Q100/05/53/Geef-verveling-geen-kans_0004055312.jpg HTTP/1.1" 200 8261 [0, 49] imageratio:8261/26092=0.317
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQAd5ENjHKYn21en&w=200&h=200&url=http%3A%2F%2Fstatic0.hln.be%2Fstatic%2Fphoto%2F2013%2F15%2F14%2F14%2F20130412070029%2Fmedia_xl_5725019.jpg&crop HTTP/1.1" 200 2374 [0, 29] imageratio:2374/7386=0.321
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQBFMTYuJBeEbkCt&w=200&h=200&url=http%3A%2F%2Fstatic0.hln.be%2Fstatic%2Fphoto%2F2013%2F18%2F9%2F1%2F20130412040227%2Fmedia_xl_5724946.jpg&crop HTTP/1.1" 200 3029 [0, 13] imageratio:3029/10184=0.297
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQCGfQ-lHDsMFeJj&w=200&h=200&url=http%3A%2F%2Fstatic3.hln.be%2Fstatic%2Fphoto%2F2013%2F18%2F16%2F12%2F20130412105150%2Fmedia_xl_5725497.jpg&crop HTTP/1.1" 200 2125 [0, 38] imageratio:2125/6505=0.327
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQCX-iPy56qgEPdB&w=200&h=200&url=http%3A%2F%2Fstatic0.hln.be%2Fstatic%2Fphoto%2F2013%2F1%2F16%2F1%2F20130411211606%2Fmedia_xl_5724511.jpg&crop HTTP/1.1" 200 2106 [0, 18] imageratio:2106/7125=0.296
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQCtwrwh5M5zJoc-&w=200&h=200&url=http%3A%2F%2Fstatic1.hln.be%2Fstatic%2Fphoto%2F2013%2F17%2F14%2F3%2F20130410082111%2Fmedia_xl_5719188.jpg&crop HTTP/1.1" 200 2350 [0, 51] imageratio:2350/7215=0.326
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://media.vacature.com/images/partnersites/hln/vacature-logo-hln-2.png HTTP/1.1" 200 770 [0, 15] imageratio:770/2702=0.285
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQAjmdqw7jiXPwLz&w=200&h=200&url=http%3A%2F%2Fstatic1.hln.be%2Fstatic%2Fphoto%2F2013%2F1%2F16%2F1%2F20130411211606%2Fmedia_xl_5724511.jpg&crop HTTP/1.1" 200 2106 [0, 25] imageratio:2106/7125=0.296
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQC7OkXY_QQbNksz&w=200&h=200&url=http%3A%2F%2Fstatic3.hln.be%2Fstatic%2Fphoto%2F2013%2F16%2F6%2F7%2F20130411180550%2Fmedia_xl_5724127.jpg&crop HTTP/1.1" 200 2901 [0, 55] imageratio:2901/8939=0.325
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static2.hln.be/immoweb/common.css HTTP/1.1" 200 10346 [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yR/r/NvzXZXd5viL.css HTTP/1.1" 200 40944 [0, 50] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yY/r/0DM49_Mfyg8.js HTTP/1.1" 200 37596 [0, 58] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258287_1.jpg HTTP/1.1" 200 1856 [0, 32] imageratio:1856/11198=0.166
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258291_1.jpg HTTP/1.1" 200 1549 [0, 54] imageratio:1549/8265=0.187
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/pics/immowebsei19033.gif HTTP/1.1" 200 1165 [0, 43] imageratio:1165/2016=0.578
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258308_1.jpg HTTP/1.1" 200 1572 [0, 42] imageratio:1572/9309=0.169
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258208_1.jpg HTTP/1.1" 200 2268 [0, 28] imageratio:2268/6896=0.329
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258295_1.jpg HTTP/1.1" 200 1353 [0, 52] imageratio:1353/6961=0.194
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258202_1.jpg HTTP/1.1" 200 1936 [0, 8] imageratio:1936/5854=0.331
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258266_1.jpg HTTP/1.1" 200 1821 [0, 36] imageratio:1821/4697=0.388
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258194_1.jpg HTTP/1.1" 200 1624 [0, 34] imageratio:1624/9705=0.167
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258161_1.jpg HTTP/1.1" 200 1779 [0, 49] imageratio:1779/10448=0.170
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258167_1.jpg HTTP/1.1" 200 2096 [0, 48] imageratio:2096/6446=0.325
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258150_1.jpg HTTP/1.1" 200 1686 [0, 13] imageratio:1686/9271=0.182
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258155_1.jpg HTTP/1.1" 200 1898 [0, 29] imageratio:1898/5102=0.372
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://static2.hln.be/immoweb/SlideItMoo/mootools-core-1.4.5-full-compat.js HTTP/1.1" 200 42404 [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258282_1.jpg HTTP/1.1" 200 1907 [0, 7] imageratio:1907/5302=0.360
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258284_1.jpg HTTP/1.1" 200 2316 [0, 31] imageratio:2316/13707=0.169
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258262_1.jpg HTTP/1.1" 200 2128 [0, 26] imageratio:2128/16689=0.128
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258285_1.jpg HTTP/1.1" 200 2003 [0, 56] imageratio:2003/14005=0.143
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258108_1.jpg HTTP/1.1" 200 1672 [0, 15] imageratio:1672/4538=0.368
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258113_1.jpg HTTP/1.1" 200 1469 [0, 51] imageratio:1469/8264=0.178
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258081_1.jpg HTTP/1.1" 200 1614 [0, 54] imageratio:1614/3926=0.411
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258311_1.jpg HTTP/1.1" 200 2379 [0, 53] imageratio:2379/15308=0.155
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258222_1.jpg HTTP/1.1" 200 3468 [0, 47] imageratio:3468/24785=0.140
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:16 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258104_1.jpg HTTP/1.1" 200 1979 [0, 25] imageratio:1979/12058=0.164
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static0.hln.be/static/nmc/prm/box/dag_9april.swf HTTP/1.1" 200 171011 [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258138_1.jpg HTTP/1.1" 200 2136 [0, 38] imageratio:2136/13788=0.155
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258279_1.jpg HTTP/1.1" 200 2033 [0, 41] imageratio:2033/15631=0.130
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258098_1.jpg HTTP/1.1" 200 2184 [0, 55] imageratio:2184/13912=0.157
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258133_1.jpg HTTP/1.1" 200 2130 [0, 18] imageratio:2130/15442=0.138
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258084_1.jpg HTTP/1.1" 200 2427 [0, 32] imageratio:2427/7886=0.308
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258283_1.jpg HTTP/1.1" 200 2305 [0, 17] imageratio:2305/14768=0.156
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/y2/r/hPfIKHAF8fQ.js HTTP/1.1" 200 7766 [0, 59] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/y5/r/sEvK8UGBVzZ.js HTTP/1.1" 200 2435 [0, 58] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/y6/r/dAJ5aFy0XfY.png HTTP/1.1" 200 11303 [0, 7] imageratio:11303/7227=1.564
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/pics/sei_previous_arrow2.gif HTTP/1.1" 200 1128 [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/pics/sei_next_arrow2.gif HTTP/1.1" 200 751 [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/pics/button-home-left.gif HTTP/1.1" 200 1197 [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yD/r/DxzglMoaWwG.png HTTP/1.1" 200 1248 [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/pics/button-home-right.gif HTTP/1.1" 200 770 [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be//pics/btn_nl.jpg HTTP/1.1" 200 2108 [0, 43] imageratio:2108/13399=0.157
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yE/r/FZfeqJvkp_N.js HTTP/1.1" 200 61069 [0, 57] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://static2.hln.be/hln/images/general/sprite_headers.png?3.2.1.55835.2 HTTP/1.1" 200 78948 [0, 27] imageratio:78948/853363=0.093
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258097_1.jpg HTTP/1.1" 200 2113 [0, 10] imageratio:2113/7403=0.285
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://pictures.immoweb.be/photos/42/58/M_4258096_1.jpg HTTP/1.1" 200 1738 [0, 50] imageratio:1738/11955=0.145
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:17 GMT "GET http://www.hln.be/hln/user/loggedIn.do HTTP/1.1" 200 - [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 65] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 67] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 64] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 61] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 66] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:21 GMT "CONNECT caps.hln.be:443 HTTP/1.1" 200 - [0, 63] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:35:52 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/y4/r/-PAXP-deijE.gif HTTP/1.1" 200 43 [0, 70] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:36:14 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 71] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:37:13 GMT "CONNECT connect.facebook.net:443 HTTP/1.1" 200 - [0, 62] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:37:14 GMT "CONNECT fbstatic-a.akamaihd.net:443 HTTP/1.1" 200 - [0, 68] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:37:14 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 72] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:01 GMT "CONNECT www.google.be:443 HTTP/1.1" 200 - [0, 2] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:01 GMT "CONNECT www.google.com:443 HTTP/1.1" 200 - [0, 1] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:13 GMT "CONNECT ajax.googleapis.com:443 HTTP/1.1" 200 - [0, 60] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:14 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 73] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:19 GMT "CONNECT www.facebook.com:443 HTTP/1.1" 200 - [0, 46] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 3] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.hln.be/ HTTP/1.1" 200 32638 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.hln.be/static/nmc/adv/js/dart_new_hln.js HTTP/1.1" 200 235 [0, 87] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://stats.persgroep.be/statistics.js?publ=hln&type=navigatie&id=1 HTTP/1.1" 200 0 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.hln.be/static/nmc/adv/js/integration_new.js HTTP/1.1" 200 238 [0, 88] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.hln.be/static/nmc/nmc/head/autodeploy.css?05042013 HTTP/1.1" 200 4041 [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/hln/css/hln_site.css?3.5.1.64657.6 HTTP/1.1" 200 18921 [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/images/logos/logo_hln_tv_small.png HTTP/1.1" 200 905 [0, 94] imageratio:905/3492=0.259
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.hln.be/static/nmc/adv/js/hooks.js?3.5.1.64657.6 HTTP/1.1" 200 242 [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static0.hln.be/hln/js/jquery/jquery.plugincontainer.js?3.5.1.64657.6 HTTP/1.1" 200 9122 [0, 82] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/hln/css/hln_app.css?3.5.1.64657.6 HTTP/1.1" 200 2417 [0, 76] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/hln/js/hln_site.js?3.5.1.64657.6 HTTP/1.1" 200 6451 [0, 85] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/hln/js/jquery/jquery-ui/css/smoothness/jquery-ui-1.8.13.custom.css?3.5.1.64657.6 HTTP/1.1" 200 6266 [0, 78] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/hln/js/spring.js?3.5.1.64657.6 HTTP/1.1" 200 2435 [0, 86] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/images/general/bt_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 804 [0, 100] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/images/weather/weathertype/weather_weathertype02.png HTTP/1.1" 200 776 [0, 103] imageratio:776/2639=0.294
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/hln/js/jquery/jquery.tweet.js?3.5.1.64657.6 HTTP/1.1" 200 12912 [0, 81] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static0.hln.be/static/photo/2013/9/0/8/20130412112442/teaser_1_2_5725583.jpg HTTP/1.1" 200 2792 [0, 97] imageratio:2792/6854=0.407
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/static/photo/2013/17/4/8/20130412110056/media_l_5725553.jpg HTTP/1.1" 200 2908 [0, 93] imageratio:2908/8203=0.355
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/static/photo/2013/2/15/0/20130412115121/teaser_1_2_5725785.jpg HTTP/1.1" 200 2649 [0, 102] imageratio:2649/7799=0.340
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/images/general/bt_play.png HTTP/1.1" 200 793 [0, 95] imageratio:793/2090=0.379
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/images/weather/weathertype/weather_weathertype05.png HTTP/1.1" 200 1804 [0, 104] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/static/photo/2013/4/0/9/20130412105711/teaser_1_2_5725464.jpg HTTP/1.1" 200 2625 [0, 101] imageratio:2625/7379=0.356
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/static/photo/2013/15/4/10/20130412111104/teaser_1_2_5725570.jpg HTTP/1.1" 200 4311 [0, 99] imageratio:4311/12546=0.344
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/static/photo/2013/11/7/9/20130412120235/media_l_5725794.jpg HTTP/1.1" 200 1998 [0, 92] imageratio:1998/4488=0.445
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/static/photo/2013/12/3/3/20130412093537/media_l_5725263.jpg HTTP/1.1" 200 2285 [0, 91] imageratio:2285/6957=0.328
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/hln/css/teaser.css?3.5.1.64657.6 HTTP/1.1" 200 18586 [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/static/photo/2013/14/7/2/20130412111356/teaser_1_2_5725607.jpg HTTP/1.1" 200 4400 [0, 105] imageratio:4400/13400=0.328
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_fill_models.js?fillMakesWhich=usedCars HTTP/1.1" 200 10328 [0, 106] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static1.hln.be/static/photo/2013/15/15/6/20130412121503/media_xl_5725836.jpg HTTP/1.1" 200 4535 [0, 96] imageratio:4535/10404=0.436
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static2.hln.be/static/photo/2013/6/8/1/20130412122713/teaser_1_2_5725846.jpg HTTP/1.1" 200 4558 [0, 98] imageratio:4558/13774=0.331
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://foto.autozone.be/autodeploy/scripts/az_teaser_jquery.js?v=12 HTTP/1.1" 200 3424 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static3.hln.be/static/photo/2013/11/11/2/20130412121139/media_xll_5725832.jpg HTTP/1.1" 200 6149 [0, 90] imageratio:6149/20141=0.305
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_model_combo.js HTTP/1.1" 200 463 [0, 107] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://www.autozone.be/assets/nl_be/alg/a_fill_makes.js?fillMakesWhich=usedCars HTTP/1.1" 200 1174 [0, 94] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:45 GMT "GET http://static.regiojobs.be/jobs/alg/js/regiojobs_jquery.js?v=139840.0 HTTP/1.1" 200 4063 [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/hln/js/jstorage.js?3.5.1.64657.6 HTTP/1.1" 200 14485 [0, 83] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/images/general/bt_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 804 [0, 110] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/9/6/9/20130412113554/album_small_5723379.jpg HTTP/1.1" 200 1375 [0, 120] imageratio:1375/2395=0.574
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/10/0/11/20130412114846/teaser_1_2_5725736.jpg HTTP/1.1" 200 2605 [0, 112] imageratio:2605/7165=0.364
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/12/12/10/20130412105636/media_l_5725510.jpg HTTP/1.1" 200 2017 [0, 115] imageratio:2017/6058=0.333
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/11/1/12/20130412114909/teaser_1_2_5725737.jpg HTTP/1.1" 200 3348 [0, 108] imageratio:3348/8517=0.393
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/3/11/2/20130412112029/media_l_5725577.jpg HTTP/1.1" 200 2173 [0, 116] imageratio:2173/6876=0.316
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/12/13/0/20130412071537/media_l_5725035.jpg HTTP/1.1" 200 2224 [0, 123] imageratio:2224/5005=0.444
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/18/4/6/20130411104724/teaser_1_11_5722476.jpg HTTP/1.1" 200 2429 [0, 128] imageratio:2429/5767=0.421
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/nmc/adv/js/integration_new.js HTTP/1.1" 200 8440 [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/15/14/14/20130412070029/media_l_5725019.jpg HTTP/1.1" 200 2418 [0, 125] imageratio:2418/7033=0.344
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/7/1/1/20130412115318/media_l_5725771.jpg HTTP/1.1" 200 2138 [0, 132] imageratio:2138/4176=0.512
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/18/3/13/20130412123226/media_l_5725858.jpg HTTP/1.1" 200 2678 [0, 126] imageratio:2678/6169=0.434
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/0/7/1/20130412114318/media_l_5725726.jpg HTTP/1.1" 200 2288 [0, 130] imageratio:2288/5519=0.415
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/12/2/13/20130412114932/teaser_1_2_5725738.jpg HTTP/1.1" 200 3318 [0, 109] imageratio:3318/9470=0.350
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/9/16/10/20130412114718/media_l_5725735.jpg HTTP/1.1" 200 3017 [0, 114] imageratio:3017/8065=0.374
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/images/general/thumb_fotoreeks.gif HTTP/1.1" 200 1284 [0, 121] imageratio:1284/2910=0.441
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/8/3/13/20130407023608/teaser_1_9_5709793.jpg HTTP/1.1" 200 2001 [0, 134] imageratio:2001/4835=0.414
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/nmc/adv/js/dart_new_hln.js HTTP/1.1" 200 5196 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/1/16/1/20130411211606/media_l_5724511.jpg HTTP/1.1" 200 2001 [0, 122] imageratio:2001/6523=0.307
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/12/10/13/20130412090008/media_l_5725168.jpg HTTP/1.1" 200 2004 [0, 117] imageratio:2004/4796=0.418
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/9/10/13/20130412113626/album_small_5725678.jpg HTTP/1.1" 200 2141 [0, 119] imageratio:2141/5576=0.384
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/13/13/4/20130412122215/media_l_5725834.jpg HTTP/1.1" 200 1980 [0, 137] imageratio:1980/4711=0.420
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/11/12/7/20130412100758/teaser_1_11_5725357.jpg HTTP/1.1" 200 1859 [0, 127] imageratio:1859/6130=0.303
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/6/9/6/20130412101602/media_l_5725371.jpg HTTP/1.1" 200 2598 [0, 131] imageratio:2598/7081=0.367
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/0/11/8/20130412082738/media_l_5725118.jpg HTTP/1.1" 200 2210 [0, 124] imageratio:2210/7021=0.315
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/10/4/4/20130412115739/media_l_5725774.jpg HTTP/1.1" 200 1945 [0, 129] imageratio:1945/3851=0.505
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/0/7/8/20130412103055/media_l_5725403.jpg HTTP/1.1" 200 1866 [0, 138] imageratio:1866/4796=0.389
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/14/15/2/20130412071612/teaser_1_2_5725037.jpg HTTP/1.1" 200 2675 [0, 144] imageratio:2675/6845=0.391
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/13/11/0/20130412122142/media_l_5725815.jpg HTTP/1.1" 200 2003 [0, 140] imageratio:2003/4481=0.447
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/10/0/3/20130412103011/teaser_1_2_5725413.jpg HTTP/1.1" 200 2856 [0, 146] imageratio:2856/8942=0.319
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/6/15/11/20130412114733/teaser_1_2_5725751.jpg HTTP/1.1" 200 2467 [0, 142] imageratio:2467/8158=0.302
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/17/1/5/20130412071758/teaser_1_2_5725040.jpg HTTP/1.1" 200 3377 [0, 147] imageratio:3377/9476=0.356
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/hln/js/pes/common.js?3.5.1.64657.6 HTTP/1.1" 200 54956 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/14/13/14/20130412112926/teaser_1_2_5725664.jpg HTTP/1.1" 200 4721 [0, 111] imageratio:4721/14442=0.327
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/16/9/4/20130412111648/media_l_5725609.jpg HTTP/1.1" 200 3094 [0, 133] imageratio:3094/10697=0.289
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/17/3/9/20130412074924/teaser_1_2_5725059.jpg HTTP/1.1" 200 3954 [0, 145] imageratio:3954/14339=0.276
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/17/15/4/20130412122712/media_xll_5725819.jpg HTTP/1.1" 200 5197 [0, 113] imageratio:5197/14745=0.352
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/12/0/1/20130412102624/media_l_5725396.jpg HTTP/1.1" 200 2244 [0, 136] imageratio:2244/5598=0.401
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/15/3/11/20130412074851/teaser_1_2_5725076.jpg HTTP/1.1" 200 4105 [0, 149] imageratio:4105/10874=0.378
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/3/5/13/20130412122417/media_l_5725843.jpg HTTP/1.1" 200 2525 [0, 139] imageratio:2525/6265=0.403
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/15/1/7/20130412074726/teaser_1_2_5725057.jpg HTTP/1.1" 200 3246 [0, 148] imageratio:3246/8867=0.366
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/16/2/1/20130412102330/teaser_1_2_5725381.jpg HTTP/1.1" 200 3243 [0, 141] imageratio:3243/11900=0.273
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/16/2/8/20130412074756/teaser_1_2_5725058.jpg HTTP/1.1" 200 2483 [0, 151] imageratio:2483/6873=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/4/7/11/20130412071942/teaser_1_2_5725046.jpg HTTP/1.1" 200 2500 [0, 150] imageratio:2500/5814=0.430
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/17/5/6/20130412102933/teaser_1_2_5725401.jpg HTTP/1.1" 200 4122 [0, 143] imageratio:4122/12367=0.333
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/nmc/adv/js/hooks.js?3.5.1.64657.6 HTTP/1.1" 200 5135 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/images/general/icon_video_small.png HTTP/1.1" 200 825 [0, 160] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/18/9/1/20130412040227/media_m_5724946.jpg HTTP/1.1" 200 1727 [0, 153] imageratio:1727/3958=0.436
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/12/7/3/20130412051133/teaser_1_2_5724978.jpg HTTP/1.1" 200 3471 [0, 155] imageratio:3471/10118=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/18/4/10/20130412075004/teaser_1_2_5725060.jpg HTTP/1.1" 200 2972 [0, 152] imageratio:2972/8230=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/images/general/bt_play.png HTTP/1.1" 200 793 [0, 161] imageratio:793/2090=0.379
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/static/photo/2013/8/11/0/20130412072151/teaser_1_2_5725050.jpg HTTP/1.1" 200 3171 [0, 154] imageratio:3171/7356=0.431
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/10/1/14/20130411171039/teaser_1_2_5723969.jpg HTTP/1.1" 200 2554 [0, 159] imageratio:2554/6974=0.366
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/8/4/11/20130411185013/teaser_1_2_5724176.jpg HTTP/1.1" 200 3057 [0, 158] imageratio:3057/8644=0.354
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/6/1/12/20130412050356/teaser_1_2_5724972.jpg HTTP/1.1" 200 2847 [0, 156] imageratio:2847/8180=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/1/5/6/20130412014959/media_l_5724891.jpg HTTP/1.1" 200 3161 [0, 162] imageratio:3161/7280=0.434
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/11/8/5/20130411202406/teaser_1_2_5724350.jpg HTTP/1.1" 200 3103 [0, 157] imageratio:3103/8819=0.352
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/static/photo/2013/18/16/12/20130412105150/media_xll_5725497.jpg HTTP/1.1" 200 6303 [0, 135] imageratio:6303/24474=0.258
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js HTTP/1.1" 200 7090 [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/hln/images/logos/mediargus.gif HTTP/1.1" 200 1305 [0, 169] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/hln/js/jquery/jquery.js?3.5.1.64657.6 HTTP/1.1" 200 91572 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/images/general/bt_play_small.png HTTP/1.1" 200 992 [0, 165] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/1/3/10/20130412091203/media_m_5725195.jpg HTTP/1.1" 200 1296 [0, 166] imageratio:1296/2944=0.440
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/hln/images/logos/acap.gif HTTP/1.1" 200 656 [0, 168] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static1.hln.be/hln/images/logos/reprocopy.gif HTTP/1.1" 200 1082 [0, 170] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/7/16/9/20130411165531/media_m_5723814.jpg HTTP/1.1" 200 1303 [0, 164] imageratio:1303/2168=0.601
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/hln/images/logos/cim_internet.png?3.5.1.64657.6 HTTP/1.1" 200 1007 [0, 171] imageratio:1007/8313=0.121
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/images/logos/logo_dpd.jpg HTTP/1.1" 200 950 [0, 167] imageratio:950/8309=0.114
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/static/photo/2013/8/5/9/20130411182324/media_l_5724024.jpg HTTP/1.1" 200 3279 [0, 163] imageratio:3279/8262=0.397
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static3.hln.be/favicon.ico?3.5.1.64657.6 HTTP/1.1" 200 32988 [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static0.hln.be/static/photo/2013/8/9/12/20130412113554/album_large_5725677.jpg HTTP/1.1" 200 25251 [0, 118] imageratio:25251/124572=0.203
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://www.hln.be/css/font_you.css HTTP/1.1" 200 217 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://www.hln.be/css/font.css HTTP/1.1" 200 223 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:46 GMT "GET http://static2.hln.be/hln/js/jquery/jquery.ui.js?3.5.1.64657.6 HTTP/1.1" 200 212684 [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.hln.be/fonts/BebasNeue-webfont.woff HTTP/1.1" 200 14002 [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.googletagservices.com/tag/js/gpt.js HTTP/1.1" 200 12912 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.hln.be/fonts/Ubuntu-R-webfont.woff HTTP/1.1" 200 19306 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://partner.googleadservices.com/gampad/google_ads_gpt.js HTTP/1.1" 200 20952 [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.hln.be/static/nmc/nmc/caps/capsLoading.html HTTP/1.1" 200 - [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.hln.be/static/nmc/nmc/caps/capsLoading.html HTTP/1.1" 200 - [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=1433329071809311&output=json_html&callback=googletag.impl.pubads.setAdContentsBySlotForSync&impl=ss&json_a=1&eid=108809002&iu_parts=7594%2Cdpd-be%2Chln%2Chln.home%2Chome&enc_prev_ius=%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4&prev_iu_szs=840x150%2C300x600%2C300x600%2C300x600%2C468x400%2C468x400%2C468x400%2C300x150&prev_scp=formaat%3D840x150%26positie%3Dleader1%7Cformaat%3D300x600%26positie%3Dsky1%7Cformaat%3D300x600%26positie%3Dsky2%7Cformaat%3D300x600%26positie%3Dsky3%7Cformaat%3D468x400%26positie%3Dimu1%7Cformaat%3D468x400%26positie%3Dimu2%7Cformaat%3D468x400%26positie%3Dimu3%7Cformaat%3D300x150%26positie%3Dbox1&cust_params=adops%3Dnull%26dossier%3Dnull%26pagetype%3Dnavigatie%26node%3D%26compid%3Dnull%26comptype%3Dnull%26plaats%3D&cookie=ID%3D76b36fd93ec29459%3AT%3D1343919291%3AS%3DALNI_MYmtMX8Tu-lzhmlXctiVlihcY7DWg&lmt=1365763021&dt=1365763127493&cc=100&biw=2560&bih=1000&oid=3&gut=v2&ifi=1&u_tz=120&u_his=2&u_java=true&u_h=1440&u_w=2560&u_ah=1440&u_aw=2560&u_cd=24&u_nplug=13&u_nmime=80&u_sd=1&flash=11.6.602&url=http%3A%2F%2Fwww.hln.be%2F&adks=3304890649%2C4116056401%2C4116056400%2C4116056403%2C3393093954%2C3393093981%2C3393093980%2C2539497345&vrg=20&vrp=20&ga_vid=1358109704.1365763127&ga_sid=1365763127&ga_hid=1021139846&ga_wpids=UA-187881-4 HTTP/1.1" 200 721 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://www.google-analytics.com/ga.js HTTP/1.1" 200 15697 [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://hln7sur7.tnsinternet.be/j0=,,,;+,cp=ss_hlnhome/nw/1/homepage/home+lang=NL+url=http%3A//www.hln.be/;;;?lt=hff83pob&x=2560x1440x24 HTTP/1.1" 200 - [0, 172] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://hln7sur7.tnsinternet.be/survey.js HTTP/1.1" 200 429 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:47 GMT "GET http://connect.facebook.net/nl_NL/all.js HTTP/1.1" 200 58989 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/static/nmc/prm/topnav/Het-Laatste-Nieuws-abonnement.gif HTTP/1.1" 200 - [0, 173] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static0.hln.be/images/logos/logo_hetlaatstenieuws.gif?3.4.1.59063.18 HTTP/1.1" 200 712 [0, 174] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07.png?3.5.1.64657.6 HTTP/1.1" 200 788 [0, 177] imageratio:788/2265=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/bt-jnt-play-pause.gif HTTP/1.1" 200 55 [0, 182] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/hdr_weather_grad.png?3.2.1.55835.2 HTTP/1.1" 200 177 [0, 179] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/hln/xmlXsltAjaxTeaser.do?language=nl&teaserId=685343 HTTP/1.1" 200 397 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/hln/xmlXsltAjaxTeaser.do?language=nl&teaserId=2398683 HTTP/1.1" 200 32 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/arrow_actua.gif HTTP/1.1" 200 731 [0, 180] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/bt_search.gif HTTP/1.1" 200 370 [0, 178] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/bt-jnt-prev.gif HTTP/1.1" 200 53 [0, 184] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/vacature/hln-banner.html HTTP/1.1" 200 470 [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/black_40p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 187] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static2.hln.be/images/logos/hln_logo.png?3.5.1.64657.6 HTTP/1.1" 200 2143 [0, 175] imageratio:2143/8141=0.263
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/bt-jnt-next.gif HTTP/1.1" 200 53 [0, 183] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/labels.png?3.2.1.55835.2?123 HTTP/1.1" 200 1041 [0, 186] imageratio:1041/6072=0.171
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/i.gif HTTP/1.1" 200 47 [0, 181] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07_header.png?3.5.1.64657.6 HTTP/1.1" 200 1194 [0, 176] imageratio:1194/20350=0.059
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/images/weather/weathertype/weather_weathertype07.png HTTP/1.1" 200 788 [0, 190] imageratio:788/2265=0.348
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static3.hln.be/images/general/icon_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 579 [0, 188] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/static/photo/2013/11/15/9/20130412092148/media_l_5725224.jpg HTTP/1.1" 200 3085 [0, 196] imageratio:3085/8793=0.351
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/images/general/icon_foto_small.png?3.5.1.64657.6 HTTP/1.1" 200 579 [0, 193] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/immoweb/SearchEngineIframe.cfm HTTP/1.1" 200 - [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/static/nmc/prm/box/dag_9april.swf HTTP/1.1" 200 - [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/static/nmc/adv/partners/Pokerstars_Artikelbox_NL_090413.jpg HTTP/1.1" 200 - [0, 192] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/static/nmc/nmc/head/header.gif HTTP/1.1" 200 - [0, 214] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static0.hln.be/static/photo/2013/15/13/9/20130412113554/album_small_5725494.jpg HTTP/1.1" 200 2350 [0, 197] imageratio:2350/6027=0.390
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/m24/hln/ HTTP/1.1" 200 1226 [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static0.hln.be/static/photo/2013/14/9/5/20130412060341/media_l_5724980.jpg HTTP/1.1" 200 2518 [0, 200] imageratio:2518/7996=0.315
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/static/photo/2013/4/0/1/20130412092735/media_xll_5725141.jpg HTTP/1.1" 200 6227 [0, 199] imageratio:6227/18278=0.341
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static2.hln.be/static/photo/2013/18/10/8/20130412115029/teaser_1_2_5725763.jpg HTTP/1.1" 200 3206 [0, 194] imageratio:3206/8854=0.362
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static0.hln.be/static/photo/2013/17/7/3/20130412114954/teaser_1_2_5725743.jpg HTTP/1.1" 200 2934 [0, 189] imageratio:2934/7460=0.393
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/autozone/auto_j2ee/aanbod/pag/a_artikels_auto55_teaser.jsp?locale=nl_BE&aantalArtikels=2&versie=smallHP&utmSource=hln&utmMedium=teaserHP&utmCampaign=AZauto55 HTTP/1.1" 200 473 [0, 85] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/icon_label_video.png?3.2.1.55835.2 HTTP/1.1" 200 291 [0, 212] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/hln/images/general/tn_photo.png?3.2.1.55835.2 HTTP/1.1" 200 1156 [0, 211] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/regiojobs/teasers/toppers_hln_mini.jsp?aantal=5 HTTP/1.1" 200 1502 [0, 82] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://www.hln.be/regiojobs/teasers/artikel_teaser_hln.jsp?versie=2 HTTP/1.1" 200 459 [0, 106] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://foto.autozone.be/autodeploy/scripts/az_teaser_jquery.js?v=12 HTTP/1.1" 200 3424 [0, 135] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/static/photo/2013/6/2/14/20130408114152/teaser_1_9_5712869.jpg HTTP/1.1" 200 2494 [0, 205] imageratio:2494/6625=0.376
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static3.hln.be/static/photo/2013/8/4/6/20130412121711/media_xll_5725791.jpg HTTP/1.1" 200 5451 [0, 204] imageratio:5451/12554=0.434
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static2.hln.be/static/photo/2013/10/9/9/20130412113554/album_small_5720169.jpg HTTP/1.1" 200 2248 [0, 198] imageratio:2248/5659=0.397
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static3.hln.be/static/photo/2013/4/9/0/20130412072553/teaser_1_2_5725065.jpg HTTP/1.1" 200 3584 [0, 207] imageratio:3584/9952=0.360
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static2.hln.be/static/photo/2013/18/12/1/20130411150542/teaser_1_11_5723521.jpg HTTP/1.1" 200 1903 [0, 203] imageratio:1903/4822=0.395
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static3.hln.be/static/photo/2013/11/11/1/20130412090046/media_l_5725186.jpg HTTP/1.1" 200 2272 [0, 195] imageratio:2272/5533=0.411
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static0.hln.be/static/photo/2013/6/11/10/20130412101836/teaser_1_2_5725390.jpg HTTP/1.1" 200 2786 [0, 206] imageratio:2786/8112=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/static/photo/2013/0/14/1/20130411173132/teaser_1_11_5724016.jpg HTTP/1.1" 200 1863 [0, 201] imageratio:1863/5618=0.332
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:48 GMT "GET http://static1.hln.be/static/nmc/prm/abonnement/banners/20130108_abonnement_banner_306x175.gif?1 HTTP/1.1" 200 5289 [0, 191] imageratio:5289/19358=0.273
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.1&utms=2&utmn=948407990&utmhn=www.hln.be&utmcs=UTF-8&utmsr=2560x1440&utmvp=2545x1000&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=HLN.be%2C%20Nieuws%2C%20sport%20en%20showbizz%2C%2024%2F24%2C%207%2F7%2C%20meer%20dan%20350%20nieuwsupdates%20per%20dag&utmhid=811584800&utmr=-&utmp=%2F&utmht=1365763128084&utmac=UA-10861327-6&utmcc=__utma%3D1.713881372.1306520587.1356170902.1365762914.6%3B%2B__utmz%3D1.1337970344.2.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qRAg~ HTTP/1.1" 200 35 [0, 217] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static1.hln.be/hln/images/logos/you_logo_small.png?3.2.1.55835.2 HTTP/1.1" 200 746 [0, 213] imageratio:746/3801=0.196
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/static/photo/2013/11/10/3/20130412100520/media_l_5725338.jpg HTTP/1.1" 200 2155 [0, 210] imageratio:2155/6917=0.312
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static3.hln.be/static/photo/2013/6/4/8/20130412121052/media_l_5725808.jpg HTTP/1.1" 200 2624 [0, 209] imageratio:2624/7977=0.329
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static1.hln.be/static/photo/2013/1/2/4/20130412071321/teaser_1_2_5725024.jpg HTTP/1.1" 200 4010 [0, 208] imageratio:4010/14338=0.280
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.1&utms=2&utmn=139816331&utmhn=www.hln.be&utme=8(3!channel)9(3!homepage)&utmcs=UTF-8&utmsr=2560x1440&utmvp=2545x1000&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=HLN.be%2C%20Nieuws%2C%20sport%20en%20showbizz%2C%2024%2F24%2C%207%2F7%2C%20meer%20dan%20350%20nieuwsupdates%20per%20dag&utmhid=811584800&utmr=-&utmp=%2F&utmht=1365763128059&utmac=UA-187881-4&utmcc=__utma%3D129496467.868955272.1306520587.1356170902.1365762914.7%3B%2B__utmz%3D129496467.1337970344.3.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qR~ HTTP/1.1" 200 35 [0, 216] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/az_logo_poweredby.gif?v=2 HTTP/1.1" 200 1384 [0, 215] imageratio:1384/3425=0.404
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://www.facebook.com/plugins/recommendations.php?locale=nl_BE&site=www.hln.be&width=304&height=330&header=false&colorscheme=light&linktarget=_blank&border_color=white&font&max_age=3 HTTP/1.1" 200 - [0, 81] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://www.facebook.com/plugins/activity.php?locale=nl_BE&site=www.hln.be&width=304&height=330&header=false&colorscheme=light&linktarget=_blank&border_color=white&font&recommendations=false&max_age=3 HTTP/1.1" 200 - [0, 83] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://hln7sur7.tnsinternet.be/blank.gif HTTP/1.1" 200 43 [0, 218] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_een.png HTTP/1.1" 200 1359 [0, 220] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_vtm.png HTTP/1.1" 200 875 [0, 219] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_vier.png HTTP/1.1" 200 1509 [0, 222] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_canvas.png HTTP/1.1" 200 755 [0, 221] imageratio:755/2745=0.275
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/tvgids.gif HTTP/1.1" 200 1763 [0, 226] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_vijf.png HTTP/1.1" 200 1383 [0, 224] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_vitaya.png HTTP/1.1" 200 1264 [0, 225] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static0.hln.be/images/logos/channel_2be.png HTTP/1.1" 200 735 [0, 223] imageratio:735/2087=0.352
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln2/public/colruyt.jpg HTTP/1.1" 200 1507 [0, 228] imageratio:1507/4261=0.354
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://statistics.persgroep.be/wwwjobs/statistics.gif?statistics_placement_id=JOBS_TOPBAAN_HLN&statistics_actie=VIEW&statistics_zoek_id=6107298&statistics_klant_id=551870&statistics_hash=2Ec4yAqe1hNqxkUQc+SbiA==&statistics_size=1 HTTP/1.1" 200 49 [0, 229] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln2/public/dr-barbie.jpg HTTP/1.1" 200 1186 [0, 227] imageratio:1186/2382=0.498
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://static1.hln.be/hln/images/general/sprite_headers.png?3.2.1.55835.2 HTTP/1.1" 200 78948 [0, 185] imageratio:78948/853363=0.093
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://statistics.persgroep.be/wwwjobs/statistics.gif?statistics_placement_id=JOBS_TOPBAAN_HLN&statistics_actie=VIEW&statistics_zoek_id=6096753&statistics_zoek_id=6096752&statistics_zoek_id=6096750&statistics_zoek_id=6096741&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_klant_id=1010060&statistics_hash=tmhmRsCUm8i4TUuTiO8OoA==&statistics_size=4 HTTP/1.1" 200 49 [0, 231] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.regiojobs.be/autodeploy/regiojobs/topjobteaser/bt_bg.gif?v=2 HTTP/1.1" 200 96 [0, 239] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.regiojobs.be/logosklant/logo_bedrijf_miniId_239111/COLRUYT---Jobmarkt-Antwerpen.jpg?refresh=10072011213617 HTTP/1.1" 200 1186 [0, 230] imageratio:1186/3011=0.394
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.regiojobs.be/autodeploy/gif/RJ_logo_teaser.gif HTTP/1.1" 200 981 [0, 237] imageratio:981/2068=0.474
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.autozone.be/fotosartikelen/W150H9999Q100/20/12/Citroen-DS-Wild-Rubis-is-design-SUV_0004201282.jpg HTTP/1.1" 200 1546 [0, 241] imageratio:1546/4145=0.373
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.regiojobs.be/autodeploy/regiojobs/topjobteaser/zoek_home_bg_v2.gif HTTP/1.1" 200 2217 [0, 238] imageratio:2217/14456=0.153
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:49 GMT "GET http://foto.autozone.be/fotosartikelen/W150H9999Q100/20/38/Bugatti-Veyron-snelste-cabrio-ter-wereld_0004203851.jpg HTTP/1.1" 200 1271 [0, 240] imageratio:1271/2764=0.460
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/search_value_nl.gif HTTP/1.1" 200 1623 [0, 235] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/search_button.gif HTTP/1.1" 200 1036 [0, 236] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.regiojobs.be/autodeploy/regiojobs/artikelteaser/rj_logo_teaser.gif HTTP/1.1" 200 1983 [0, 242] imageratio:1983/8047=0.246
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/hln/images/general/black_10p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 246] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/hln/images/general/black_5p.png?3.2.1.55835.2 HTTP/1.1" 200 109 [0, 245] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://foto.regiojobs.be/fotosartikelen/W600H9999Q100/05/53/Geef-verveling-geen-kans_0004055312.jpg HTTP/1.1" 200 8261 [0, 244] imageratio:8261/26092=0.317
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.netto.tijd.be/i/01/d3/34.250.jpeg?ts=1365509300000 HTTP/1.1" 200 2140 [0, 233] imageratio:2140/9493=0.225
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.netto.tijd.be/i/01/af/40.250.jpeg?ts=1332501051000 HTTP/1.1" 200 2258 [0, 232] imageratio:2258/9204=0.245
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://foto.regiojobs.be/fotosartikelen/W600H9999Q100/06/16/Lentekriebels-op-het-werk_0004061676.jpg HTTP/1.1" 200 7688 [0, 243] imageratio:7688/26080=0.295
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.netto.tijd.be/finance/common/img/hln/head_netto_510.png HTTP/1.1" 200 1451 [0, 234] imageratio:1451/16342=0.089
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/static/nmc/prm/topnav/Het-Laatste-Nieuws-abonnement.gif HTTP/1.1" 200 1171 [0, 248] imageratio:1171/2757=0.425
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/immoweb/SearchEngineIframe.cfm HTTP/1.1" 200 3245 [0, 185] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/autozone/auto_j2ee/aanbod/pag/a_hln_integratie_zoek.jsp?locale=nl_BE&versie=occasies&searchBrandstofOcc=true&searchPrijsFromOcc=true&searchPrijsTotOcc=true&searchAllOcc=true&utmSource=hln&utmMedium=teaserHP&utmCampaign=AZsearchOccasies HTTP/1.1" 200 1002 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/autozone_powered_large.gif?v=2 HTTP/1.1" 200 1083 [0, 250] imageratio:1083/2987=0.363
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/static/nmc/nmc/head/header.gif HTTP/1.1" 200 1678 [0, 252] imageratio:1678/8097=0.207
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/vacature/hln4-banner.html HTTP/1.1" 200 431 [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/vacature/hln-jobticker.html HTTP/1.1" 200 2887 [0, 185] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static3.hln.be/static/photo/2013/13/1/9/20130412074824/teaser_1_2_5725074.jpg HTTP/1.1" 200 2647 [0, 254] imageratio:2647/7706=0.343
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/1/15/11/20130412054827/teaser_1_2_5724986.jpg HTTP/1.1" 200 2965 [0, 253] imageratio:2965/8488=0.349
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static3.hln.be/static/photo/2013/13/8/4/20130412051333/teaser_1_2_5724979.jpg HTTP/1.1" 200 3671 [0, 256] imageratio:3671/11142=0.329
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/static/photo/2013/13/6/0/20130412051600/teaser_1_2_5724960.jpg HTTP/1.1" 200 4626 [0, 257] imageratio:4626/13017=0.355
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/images/general/bt_play_small.png HTTP/1.1" 200 992 [0, 264] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/images/general/bt_play.png HTTP/1.1" 200 793 [0, 262] imageratio:793/2090=0.379
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/static/photo/2013/14/7/1/20130412051852/teaser_1_2_5724961.jpg HTTP/1.1" 200 2520 [0, 255] imageratio:2520/6980=0.361
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/13/4/10/20130411193833/teaser_1_2_5724295.jpg HTTP/1.1" 200 2030 [0, 260] imageratio:2030/4565=0.445
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/static/photo/2013/1/6/12/20130412091537/media_l_5725062.jpg HTTP/1.1" 200 2474 [0, 263] imageratio:2474/5379=0.460
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/static/photo/2013/11/11/7/20130411190157/teaser_1_2_5724217.jpg HTTP/1.1" 200 4397 [0, 261] imageratio:4397/12540=0.351
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/12/3/9/20130411193719/teaser_1_2_5724294.jpg HTTP/1.1" 200 3057 [0, 259] imageratio:3057/7413=0.412
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/12/5/14/20130412050728/teaser_1_2_5724959.jpg HTTP/1.1" 200 3037 [0, 258] imageratio:3037/10831=0.280
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/static/nmc/nmc/lp/nav/logoDieetlijn.gif HTTP/1.1" 200 - [0, 269] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoGoedGevoel.gif HTTP/1.1" 200 - [0, 271] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoNina.gif HTTP/1.1" 200 - [0, 270] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQAw9ntTh8dxmamB&w=200&h=200&url=http%3A%2F%2Fstatic3.hln.be%2Fstatic%2Fphoto%2F2013%2F0%2F15%2F0%2F20130411211603%2Fmedia_xl_5724510.jpg&crop HTTP/1.1" 200 2106 [0, 74] imageratio:2106/7125=0.296
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://www.hln.be/static/nmc/nmc/bottom/logos/logoVacature.png HTTP/1.1" 200 - [0, 272] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static.regiojobs.be/jobs/alg/gif/rj_logo.gif HTTP/1.1" 200 1746 [0, 268] imageratio:1746/5983=0.292
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://external.ak.fbcdn.net/safe_image.php?d=AQATTNIiUleOqK3x&w=200&h=200&url=http%3A%2F%2Fstatic0.hln.be%2Fstatic%2Fphoto%2F2013%2F2%2F6%2F7%2F20130412012416%2Fmedia_xl_5724892.jpg&crop HTTP/1.1" 200 2225 [0, 83] imageratio:2225/6565=0.339
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://buttons.googlesyndication.com/fusion/add.gif HTTP/1.1" 200 2068 [0, 273] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/nmc/prm/box/dag_9april.swf HTTP/1.1" 200 171011 [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/15/15/6/20130412121503/media_m_5725836.jpg HTTP/1.1" 200 1323 [0, 265] imageratio:1323/2450=0.540
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/hln/images/general/vacature_topjobs.gif?123 HTTP/1.1" 200 608 [0, 276] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be//hln/images/logos/co2stats_badge.png HTTP/1.1" 200 1038 [0, 274] imageratio:1038/5150=0.202
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/0/5/11/20130412075404/media_m_5725061.jpg HTTP/1.1" 200 1399 [0, 267] imageratio:1399/3243=0.431
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static1.hln.be/hln/images/general/social_tools.gif HTTP/1.1" 200 2627 [0, 275] imageratio:2627/12309=0.213
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static0.hln.be/static/photo/2013/14/10/12/20130412120448/media_m_5725797.jpg HTTP/1.1" 200 1733 [0, 266] imageratio:1733/3838=0.452
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:50 GMT "GET http://static2.hln.be/static/nmc/adv/partners/Pokerstars_Artikelbox_NL_090413.jpg HTTP/1.1" 200 3914 [0, 251] imageratio:3914/30542=0.128
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/btn_search.jpg?v=1 HTTP/1.1" 200 794 [0, 277] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://assets.vacature.com/sites/default/files/styles/export_hln4/public/13_1425.jpg HTTP/1.1" 200 2549 [0, 280] imageratio:2549/7774=0.328
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://media.vacature.com/images/partnersites/hln/vacature-logo-hln-2.png HTTP/1.1" 200 770 [0, 279] imageratio:770/2702=0.285
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://media.vacature.com/themes/vacref_v3/images/logos_150px/vac_transp.png HTTP/1.1" 200 1270 [0, 281] imageratio:1270/4301=0.295
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://static1.hln.be/static/nmc/nmc/lp/nav/logoDieetlijn.gif HTTP/1.1" 200 1091 [0, 282] imageratio:1091/2732=0.399
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://static1.hln.be/static/nmc/nmc/bottom/logos/logoGoedGevoel.gif HTTP/1.1" 200 950 [0, 283] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://static1.hln.be/static/nmc/nmc/bottom/logos/logoNina.gif HTTP/1.1" 200 1075 [0, 284] imageratio:1075/2070=0.519
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:51 GMT "GET http://static3.hln.be/static/nmc/nmc/bottom/logos/logoVacature.png HTTP/1.1" 200 1412 [0, 285] imageratio:1412/4224=0.334
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:38:54 GMT "GET http://foto.autozone.be/autodeploy/auto/gif/teaserHln/arrow_down.png?3.2.1.55835.2?v=2 HTTP/1.1" 200 913 [0, 288] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:39:48 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 291] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:40:43 GMT "CONNECT mail.google.com:443 HTTP/1.1" 200 - [0, 69] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:40:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 292] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:41:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 293] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:41:55 GMT "CONNECT www.facebook.com:443 HTTP/1.1" 200 - [0, 287] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:42:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 294] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:43:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 295] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:44:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 296] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:45:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 297] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:46:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 298] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:47:04 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 249] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:47:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 300] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:48:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 301] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:49:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 302] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:50:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 303] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:51:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 304] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:52:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 305] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:53:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 306] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:54:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 307] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:55:24 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 299] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:55:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 309] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:41 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=19.0.2&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 679 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:41 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEY9fMGIIj0BioH9rkBAP__BzIF9bkBAAE HTTP/1.1" 200 757 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:41 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY1fcGIOj3BioG2rsBAP9_MgXVuwEAHw HTTP/1.1" 200 4171 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:41 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGPGWCCDAlwgqCpULAgD______w8yCXELAgD_____Dw HTTP/1.1" 200 1705 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:41 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGNP9ECDY_RAqBdc-BAADMgXTPgQADw HTTP/1.1" 200 2312 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:56:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 310] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:57:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 311] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:58:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 312] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:10:59:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 313] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:00:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 314] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:01:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 315] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:02:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 316] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:03:44 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 308] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:03:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 317] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:04:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 319] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:05:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 320] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:06:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 321] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:07:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 322] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:08:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 323] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:09:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 324] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:10:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 325] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:11:47 GMT "GET http://www.hln.be/hln/nl/1/5/hftn.dhtml HTTP/1.1" 200 616 [0, 326] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:04 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 318] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://t.co/u9pXHXgErX HTTP/1.1" 200 - [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/articles/most-depressing-job-interview-youll-ever-see-curre,32020/ HTTP/1.1" 200 9947 [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/CACHE/css/674c1fa26fe2.css HTTP/1.1" 200 12987 [0, 330] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/CACHE/css/dab174a1ac8d.css HTTP/1.1" 200 9994 [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://t.co/favicon.ico HTTP/1.1" 200 1150 [0, 329] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/mobile_navbtn.png HTTP/1.1" 200 472 [0, 333] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/sharetools/twitter_2x.png HTTP/1.1" 200 1007 [0, 332] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/sharetools/facebook_2x.png HTTP/1.1" 200 685 [0, 331] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/logo_2x.png?fa705f6b6d14 HTTP/1.1" 200 4794 [0, 330] imageratio:4794/9783=0.490
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/sharetools/googleplus_2x.png HTTP/1.1" 200 1728 [0, 334] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/avclub-small_2x.png?fa705f6b6d14 HTTP/1.1" 200 1515 [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/favicon.ico HTTP/1.1" 200 318 [0, 340] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://widgets.outbrain.com/outbrain.js HTTP/1.1" 200 10562 [0, 335] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/fonts/sprites/font/sprites.woff?fa705f6b6d14 HTTP/1.1" 200 11248 [0, 342] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/icons/weather/sun_2x.png HTTP/1.1" 200 1118 [0, 341] imageratio:1118/28158=0.040
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/fonts/MetaSerifWeb-Bold.woff?fa705f6b6d14 HTTP/1.1" 200 44320 [0, 344] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/fonts/MetaSerifWeb-Book.woff?fa705f6b6d14 HTTP/1.1" 200 42344 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://media.avclub.com/images/428/428079/16x9/627.jpg?8761 HTTP/1.1" 200 6507 [0, 336] imageratio:6507/28133=0.231
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/fonts/MetaSerifWeb-BookItalic.woff?fa705f6b6d14 HTTP/1.1" 200 44860 [0, 329] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://s.ppjol.net/pp.js HTTP/1.1" 200 32336 [0, 337] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://content.dl-rms.com/rms/mother/5781/nodetag.js HTTP/1.1" 200 882 [0, 338] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/CACHE/js/698bb6897b52.js HTTP/1.1" 200 95901 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/avclub_2x.png?fa705f6b6d14 HTTP/1.1" 200 1491 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/stripe-pattern.png?fa705f6b6d14 HTTP/1.1" 200 966 [0, 342] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/onionyoutube_2x.png?fa705f6b6d14 HTTP/1.1" 200 1912 [0, 337] imageratio:1912/3117=0.613
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://www.theonion.com/static/onion/img/onionstore_2x.png?fa705f6b6d14 HTTP/1.1" 200 1726 [0, 344] imageratio:1726/2848=0.606
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:14 GMT "GET http://videos.theonion.com/ads/2013/04/static/traumatize_your_children.jpg HTTP/1.1" 200 2423 [0, 343] imageratio:2423/11687=0.207
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://i.ytimg.com/vi/lQoixkM_2u4/0.jpg HTTP/1.1" 200 7941 [0, 330] imageratio:7941/33916=0.234
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://odb.outbrain.com/utils/get?url=http%3A%2F%2Fwww.theonion.com%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F&srcUrl=http%3A%2F%2Ffeeds.theonion.com%2Ftheonion%2Fdaily&settings=true&recs=true&widgetJSId=AR_1&key=NANOWDGT01&idx=0&version=97883&ref=http%3A%2F%2Ft.co%2Fu9pXHXgErX&apv=false&sig=mQvQGT6W&format=html&rand=60492 HTTP/1.1" 200 3041 [0, 329] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.googletagservices.com/tag/js/gpt.js HTTP/1.1" 304 - [0, 330] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.google-analytics.com/ga.js HTTP/1.1" 304 - [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://edge.quantserve.com/quant.js HTTP/1.1" 304 - [0, 329] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.theonion.com/static/onion/img/terminator_1x.png HTTP/1.1" 200 1175 [0, 337] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://ct.buzzfeed.com/wd/UserWidget?u=theonion.com&to=1&or=vb&wid=1&cb=1365765134976 HTTP/1.1" 200 3495 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.theonion.com/static/onion/img/terminator_2x.png?fa705f6b6d14 HTTP/1.1" 200 1224 [0, 330] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://o.onionstatic.com/images/21/21677/16x9/350.jpg?8069 HTTP/1.1" 200 3523 [0, 343] imageratio:3523/22059=0.160
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://widgets.outbrain.com/images/textualVideoIcon/video-icon.png HTTP/1.1" 200 1082 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.theonion.com/prefetch/prefetch.json?url=%2Farticles%2Fdoctors-reveal-dick-cheney-burning-through-at-leas%2C32022%2F&url=%2Farticles%2Ffasttalking-computer-hacker-just-has-to-break-thro%2C32000%2F&url=%2Farticles%2Ffuture-christian-drinking-and-doing-drugs-and-thin%2C32003%2F&url=%2Farticles%2Fleading-social-media-site-harvardconnection-now-va%2C32011%2F&url=%2Farticles%2Flocal-band-expects-things-to-take-off-following-gl%2C32027%2F&url=%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F&url=%2Farticles%2Fstripper-thinks-customer-flirting-with-her%2C32016%2F&url=%2Farticles%2Fterrified-newsroom-writers-nodding-heads-at-every%2C32028%2F&url=%2Farticles%2Ftoddler-junkie-immediately-hooked-on-looking-at-tr%2C32025%2F&url=%2Farticles%2Fwell-doesnt-area-businessman-look-dapper-for-his-b%2C32014%2F&url=%2Ffeatures%2Fnews%2F&url=%2Fvideo%2Fcouple-making-out-at-bus-stop-like-its-fucking-par%2C32024%2F&url=%2Fvideo%2Fdrag-out-your-doomed-relationship-that-extra-month%2C32019%2F&url=%2Fvideo%2Fpopular-childrens-book-author-reveals-the-spooky-t%2C31937%2F HTTP/1.1" 200 21096 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://partner.googleadservices.com/gampad/google_ads_gpt.js HTTP/1.1" 304 - [0, 335] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://widgets.outbrain.com/images/widgetIcons/ob_logo_16x16.png HTTP/1.1" 200 707 [0, 337] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://widgets.outbrain.com/nanoWidget/3rd/comScore/comScore.htm HTTP/1.1" 200 - [0, 330] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://o.onionstatic.com/images/21/21673/original/700.jpg?7114 HTTP/1.1" 200 11023 [0, 344] imageratio:11023/72795=0.151
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://www.theonion.com/static/onion/fonts/MetaSerifWeb-BoldItalic.woff?fa705f6b6d14 HTTP/1.1" 200 44140 [0, 342] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://pglb.buzzfed.com/361149/7a258be33ab3bfd2586b4b90ab44e008?callback=BF_PARTNER.gate_response&cb=1485 HTTP/1.1" 200 38 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://pixel.quantserve.com/pixel/p-3aud4J6uA4Z6Y.gif?labels=InvisibleBox&busty=1786 HTTP/1.1" 200 35 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2710162794754129&output=json_html&callback=window.parent.googletag.impl.pubads.setAdContentsBySlotForAsync&impl=fifs&json_a=1&iu_parts=1009948%2Cheader%2Cheader_300x250%2Cwallpaper%2Cstunt%2C300x250_abovefold%2C300x250_secondary&enc_prev_ius=%2F0%2F1%2C%2F0%2F2%2C%2F0%2F3%2C%2F0%2F4%2C%2F0%2F5%2C%2F0%2F6&prev_iu_szs=728x90%2C300x250%2C1x1%2C1x1%2C300x250%2C300x250&prev_scp=dfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop%7Cdfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop%7Cdfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop%7Cdfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop%7Cdfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop%7Cdfp_adchannel%3Dlocal%26dfp_pagetype%3Darticle%26dfp_channel%3Dlocal%26dfp_articletype%3Dnews%26dfp_site%3Dtheonion%26dfp_articleid%3D32020%26dfp_viewport%3Ddesktop&cookie_enabled=1&lmt=1365764226&dt=1365765135489&cc=100&biw=2545&bih=1305&oid=3&gut=v2&ifi=1&u_tz=120&u_his=1&u_java=true&u_h=1440&u_w=2560&u_ah=1440&u_aw=2560&u_cd=24&u_nplug=13&u_nmime=80&u_sd=1&flash=11.6.602&url=http%3A%2F%2Fwww.theonion.com%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F&ref=http%3A%2F%2Ft.co%2Fu9pXHXgErX&adks=3994490298%2C796312821%2C19004084%2C1348985680%2C2087367131%2C483547145&vrg=20&vrp=20&ga_vid=1132434059.1365765135&ga_sid=1365765135&ga_hid=1805167655 HTTP/1.1" 200 2049 [0, 344] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:15 GMT "GET http://ad.doubleclick.net/adj/N6249.3804.ONIONINC/B7538153;sz=300x250;click=http://adclick.g.doubleclick.net/aclk?sa=L&ai=BMzXZD-xnUaf3KYOp-wbgzYD4DrCcoYgDAAAAEAEgmNzDBTgAWPi93cVVYLngz4DoAbIBEHd3dy50aGVvbmlvbi5jb226AQlnZnBfaW1hZ2XIAQnaAVpodHRwOi8vd3d3LnRoZW9uaW9uLmNvbS9hcnRpY2xlcy9tb3N0LWRlcHJlc3Npbmctam9iLWludGVydmlldy15b3VsbC1ldmVyLXNlZS1jdXJyZSwzMjAyMC_AAgLgAgDqAhovMTAwOTk0OC8zMDB4MjUwX3NlY29uZGFyefgCgdIekAPIBpgD4AOoAwHQBJBO4AQBoAYW&num=0&sig=AOD64_3liAJVCH44spJckVcWwencqfBaKg&client=ca-pub-3411085762582526&adurl=;ord=256878616? HTTP/1.1" 403 280 [0, 337] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=5235238&PluID=0&w=300&h=600&ncu=$$http://adclick.g.doubleclick.net/aclk?sa=L&ai=BfRBoD-xnUab3KYOp-wbgzYD4Dojcr44DAAAAEAEgmNzDBTgAWIihkIBXYLngz4DoAbIBEHd3dy50aGVvbmlvbi5jb226AQozMDB4MjUwX2FzyAEJ2gFaaHR0cDovL3d3dy50aGVvbmlvbi5jb20vYXJ0aWNsZXMvbW9zdC1kZXByZXNzaW5nLWpvYi1pbnRlcnZpZXcteW91bGwtZXZlci1zZWUtY3VycmUsMzIwMjAvwAIC4AIA6gIaLzEwMDk5NDgvMzAweDI1MF9hYm92ZWZvbGT4AoHSHpADyAaYA-ADqAMB0ASQTuAEAaAGFg&num=0&sig=AOD64_08c1PtZDeDyl_InopcMSN3KcjO1g&client=ca-pub-3411085762582526&adurl=$$&ord=667722599&ucm=true&StrID=0&{0} HTTP/1.1" 200 - [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=5235237&PluID=0&w=728&h=90&ncu=$$http://adclick.g.doubleclick.net/aclk?sa=L&ai=BUM84D-xnUaL3KYOp-wbgzYD4Dojcr44DAAAAEAEgmNzDBTgAWOjpmJxNYLngz4DoAbIBEHd3dy50aGVvbmlvbi5jb226AQlnZnBfaW1hZ2XIAQnaAVpodHRwOi8vd3d3LnRoZW9uaW9uLmNvbS9hcnRpY2xlcy9tb3N0LWRlcHJlc3Npbmctam9iLWludGVydmlldy15b3VsbC1ldmVyLXNlZS1jdXJyZSwzMjAyMC_AAgLgAgDqAg8vMTAwOTk0OC9oZWFkZXL4AoHSHpADyAaYA-ADqAMB0ASQTuAEAaAGFg&num=0&sig=AOD64_2DFHdL-_UKkdfQyPze6SM5swIX-Q&client=ca-pub-3411085762582526&adurl=$$&ord=1473415709&ucm=true&StrID=0&{0} HTTP/1.1" 200 - [0, 342] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://pagead2.googlesyndication.com/pagead/osd.js HTTP/1.1" 304 - [0, 330] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://partner-us-east-1a-1806761701.us-east-1.elb.amazonaws.com/partner.gif?partner=361149&buzzid=7a258be33ab3bfd2586b4b90ab44e008&buzz=http%3A%2F%2Fwww.theonion.com%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F&title=Most%20Depressing%20Job%20Interview%20You%E2%80%99ll%20Ever%20See%20Currently%20Taking%20Place%20At%20Starbucks%20Table%20%7C%20The%20Onion%20-%20America%27s%20Finest%20News%20Source&url=http%3A%2F%2Fwww.theonion.com%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F&referrer=http%3A%2F%2Ft.co%2Fu9pXHXgErX&z=8466 HTTP/1.1" 200 35 [0, 344] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingCachedScripts/ebBanner_2_6_2_15.js HTTP/1.1" 200 48957 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://b.scorecardresearch.com/b?c1=7&c2=14320224&c3=000&ns__t=1365765135664&ns_c=UTF-8&c8=&c7=http%3A%2F%2Fwidgets.outbrain.com%2FnanoWidget%2F3rd%2FcomScore%2FcomScore.htm&c9=http%3A%2F%2Fwww.theonion.com%2Farticles%2Fmost-depressing-job-interview-youll-ever-see-curre%2C32020%2F HTTP/1.1" 204 0 [0, 339] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-11/12807702_767d5a9e-6b84-48f3-8ad4-2310ced89ef1.js HTTP/1.1" 200 1329 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingCachedScripts//Res/Empty_Movie.swf HTTP/1.1" 200 30 [0, 344] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-11/12807753_7bb364fc-d614-47f0-a180-f57b36f98c94.js HTTP/1.1" 200 1330 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://s.ppjol.net/css/pp.css HTTP/1.1" 200 3953 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-2/50354626-45b2-435f-8458-1ca9cd9fc44d.swf?ebDomain=www.theonion.com&ebAdID=12807702&cp=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebV54_&ebIntTime=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&ebResourcePath=http://ds.serving-sys.com/BurstingRes//&ebCampaignID=245303&ebStreamingAppURL=rtmp%3A//cp16207.edgefcs.net/ondemand&ebStreamVirtualPath=Res/Site-261/&ebAdIdentifier=gEbBanners[0].displayUnit_12807702&ebResPath=http%3A//ds.serving-sys.com/BurstingRes//&ebLC=gEbBanners[0].displayUnit_ebBannerFlash_12807702 HTTP/1.1" 200 6272 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-2/9a42ca29-511e-4d8c-8fae-2b421edd38c1.swf?ebDomain=www.theonion.com&ebAdID=12807753&cp=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebV54_&ebIntTime=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&ebResourcePath=http://ds.serving-sys.com/BurstingRes//&ebCampaignID=245303&ebStreamingAppURL=rtmp%3A//cp16207.edgefcs.net/ondemand&ebStreamVirtualPath=Res/Site-261/&ebAdIdentifier=gEbBanners[0].displayUnit_12807753&ebResPath=http%3A//ds.serving-sys.com/BurstingRes//&ebLC=gEbBanners[0].displayUnit_ebBannerFlash_12807753 HTTP/1.1" 200 6289 [0, 336] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://amch.questionmarket.com/adscgen/adrad.php?survey_num=0&aicode=0&site=9547 HTTP/1.1" 200 20 [0, 335] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://h.ppjol.com/hecate/cookie/write.json?cb=_cb_F994D66E79D225412A0BF4498B06C1B8CE15 HTTP/1.1" 200 58 [0, 342] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://h.ppjol.com/hecate/hecate/nometer.json?z=X7Gu3YIpecAvEgj6-27cd0&border=qtYGSqnP-QssVfyr5XPE6D&entry=http%3A%2F%2Ft.co%2Fu9pXHXgErX&cb=_cb_6F10E1296BECB340DA2888E2A46E33EB494D HTTP/1.1" 200 200 [0, 344] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-2/d9ad56a7-c7a1-4de7-a7f5-b9eabc84f23f.swf?ebDomain=www.theonion.com&ebAdID=12807702&cp=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebV54_&ebIntTime=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&ebResourcePath=http://ds.serving-sys.com/BurstingRes//&ebCampaignID=245303&ebStreamingAppURL=rtmp%3A//cp16207.edgefcs.net/ondemand&ebStreamVirtualPath=Res/Site-261/&ebAdIdentifier=gEbBanners[0].displayUnit_12807702&ebResPath=http%3A//ds.serving-sys.com/BurstingRes//&ebLC=gEbBanners[0].displayUnit_ebRichFlash_12807702 HTTP/1.1" 200 85353 [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://ds.serving-sys.com/BurstingRes//Site-261/Type-2/74e9e1df-1e5a-468b-a7f7-0bbc39fe30b2.swf?ebDomain=www.theonion.com&ebAdID=12807753&cp=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebV54_&ebIntTime=http://ds.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&ebResourcePath=http://ds.serving-sys.com/BurstingRes//&ebCampaignID=245303&ebStreamingAppURL=rtmp%3A//cp16207.edgefcs.net/ondemand&ebStreamVirtualPath=Res/Site-261/&ebAdIdentifier=gEbBanners[0].displayUnit_12807753&ebResPath=http%3A//ds.serving-sys.com/BurstingRes//&ebLC=gEbBanners[0].displayUnit_ebRichFlash_12807753 HTTP/1.1" 200 66500 [0, 334] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:16 GMT "GET http://h.ppjol.com/hecate/cookie/check.json?cb=_cb_978189DBA24E234D553AA1438832204E5DDC HTTP/1.1" 200 62 [0, 343] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:17 GMT "GET http://h.ppjol.com/hecate/hecate/2.json?z=X7Gu3YIpecAvEgj6-27cd0&border=qtYGSqnP-QssVfyr5XPE6D&entry=http%3A%2F%2Ft.co%2Fu9pXHXgErX&cb=_cb_ACA1E1D04E7E9849CADA7D1A2A6E3632FCF7 HTTP/1.1" 200 234 [0, 328] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:39 GMT "GET http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=int&iv=2&int=12807753~~0~~924846~~6214754005244070780^ebRichFlashPlayed~0~0~01020^ebAdDuration~22~0~01020&usercookie=u2=1ab5ddcf-8753-49ea-8bd5-8320a3ac107a&OptOut=0&ebRandom=0.5077655888485231&flv=11.6602&wmpv=0&res=32768&bwVal=1091&bwTime=1365765136783 HTTP/1.1" 200 - [0, 345] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:12:39 GMT "GET http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=int&iv=2&int=12807702~~0~~925614~~6717853805532831672^ebRichFlashPlayed~0~0~01020^ebAdDuration~22~0~01020&usercookie=u2=1ab5ddcf-8753-49ea-8bd5-8320a3ac107a&OptOut=0&ebRandom=0.05940446879908201&flv=11.6602&wmpv=0&res=32768&bwVal=1877&bwTime=1365765136707 HTTP/1.1" 200 - [0, 345] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:20:24 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 327] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:26:11 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=19.0.2&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 696 [0, 347] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:26:11 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEY9fMGIIj0BioH97kBAP__AzIF9bkBAAM HTTP/1.1" 200 1698 [0, 347] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:26:11 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY1fcGIOj3BioG3LsBAP8fMgXVuwEAfw HTTP/1.1" 200 4820 [0, 347] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:26:11 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGPGWCCDAlwgqCpgLAgD______wEyCXELAgD_____fw HTTP/1.1" 200 1839 [0, 347] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:26:11 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGNf9ECDg_RAqBds-BAA_MgXXPgQADw HTTP/1.1" 200 1484 [0, 347] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:28:44 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 346] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:28:44 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 346] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:37:04 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 348] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoo.com/1609002996 HTTP/1.1" 200 - [0, 350] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoo.com/ HTTP/1.1" 200 - [0, 351] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoocdn.com/static/086211150798437050157364/css_compiled/twoo.wrapper.v1.css HTTP/1.1" 200 - [0, 352] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoocdn.com/static/80449234798647878/images/logos/logo-twoo-flat.png HTTP/1.1" 200 572 [0, 353] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoocdn.com/static/8717345143940905896989775/shared/i/blank.gif HTTP/1.1" 200 43 [0, 354] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoocdn.com/static/3554353988876594917/images/favicon.ico HTTP/1.1" 200 8742 [0, 358] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:53 GMT "GET http://www.twoocdn.com/static/5519764613221220731442843/images/loader-animated.gif HTTP/1.1" 200 9225 [0, 356] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/99193680382383574518698/images/hpv4/beach-at-dusk@2x_optimized.jpg HTTP/1.1" 200 27845 [0, 355] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/5128418322333571467098/css_compiled/group_core.css HTTP/1.1" 200 - [0, 351] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/00938764746971727/jsc/g/webcore.js HTTP/1.1" 200 82126 [0, 357] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/5128418322333571467098/images/icons/icons.png HTTP/1.1" 200 14397 [0, 357] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/086211150798437050157364/images/bkg/hp-bkg-form.png HTTP/1.1" 200 159 [0, 355] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/5128418322333571467098/images/icons/icons-hp.png HTTP/1.1" 200 22368 [0, 351] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/87250809202649834371/jsc/g/register.js HTTP/1.1" 200 5567 [0, 359] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.twoocdn.com/static/7989632063746534501/jsc/w7iebadge.js HTTP/1.1" 200 450 [0, 360] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.google-analytics.com/ga.js HTTP/1.1" 304 - [0, 351] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js HTTP/1.1" 200 4374 [0, 357] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://radar.cedexis.com/01-10200-radar10.min.js HTTP/1.1" 200 762 [0, 358] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://connect.facebook.net/en_US/all.js HTTP/1.1" 304 - [0, 351] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://platform.twitter.com/widgets/tweet_button.html?_=1310132990159&count=horizontal&id=twitter_tweet_button_0&related=twoo&text=I%27m%20now%20meeting%20new%20people%20on%20%23Twoo%21&original_referer=http%3A%2F%2Fwww.twoo.com%2F&url=http%3A%2F%2Fwww.twoo.com%2F HTTP/1.1" 200 22952 [0, 356] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://b.scorecardresearch.com/b?c1=2&c2=6034675&ns__t=1365766854415&ns_c=UTF-8&c8=Twoo%20-%20Meet%20New%20People&c7=http%3A%2F%2Fwww.twoo.com%2F&c9= HTTP/1.1" 204 0 [0, 352] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.1&utms=1&utmn=1663844550&utmhn=www.twoo.com&utme=8(is_logged_in_age*avatar*unlimited_status*bought_credits*gender)9(NO*YES*Free*YES*MALE)11(1*1*1*1*1)&utmcs=UTF-8&utmsr=2560x1440&utmvp=2560x1305&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.6%20r602&utmdt=Twoo%20-%20Meet%20New%20People&utmhid=1568014445&utmr=-&utmp=%2FloggedOutHomepage&utmht=1365766854444&utmac=UA-21258067-1&utmcc=__utma%3D111542401.1581563637.1311054358.1364580668.1365766854.44%3B%2B__utmz%3D111542401.1347026846.35.16.utmcsr%3Dnewrelic.com%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2Fapp-speed-index%3B&utmu=qBCAAAAAAAAAAAAAQ~ HTTP/1.1" 200 35 [0, 353] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://www.facebook.com/plugins/like.php?app_id=142250212517726&locale=en_US&href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FTwoo%2F205453316143854&send=false&layout=button_count&width=150&show_faces=true&action=like&colorscheme=light&font&height=21 HTTP/1.1" 200 - [0, 355] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://p.twitter.com/t.gif?_=1310132990159&count=horizontal&id=twitter_tweet_button_0&related=twoo&text=I%27m%20now%20meeting%20new%20people%20on%20%23Twoo!&original_referer=http%3A%2F%2Fwww.twoo.com%2F&url=http%3A%2F%2Fwww.twoo.com%2F&lang=en&type=share&size=m&twttr_referrer=http%3A%2F%2Fwww.twoo.com%2F&twttr_widget=0&twttr_dnt=1 HTTP/1.1" 200 43 [0, 356] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:54 GMT "GET http://beacon-2.newrelic.com/1/54d21335ae?a=72640&be=313&qt=0&ap=21&dc=410&fe=494&to=YlBUY0oCVhdQAhJZCVsadUJLF1cJHjURXwlqdllZTBFXCF0EFG8iUFNXQlQXfxFUEhIfAlxGRltZGnEKVQQe&v=40&jsonp=NREUM.setToken&perf=%7B%22timing%22%3A%7B%22of%22%3A1365766853509%2C%20%22n%22%3A0%2C%20%22dl%22%3A295%2C%20%22di%22%3A722%2C%20%22ds%22%3A739%2C%20%22de%22%3A745%2C%20%22dc%22%3A806%2C%20%22l%22%3A806%2C%20%22le%22%3A812%2C%20%22r%22%3A1%2C%20%22re%22%3A216%2C%20%22f%22%3A216%2C%20%22dn%22%3A216%2C%20%22dne%22%3A216%2C%20%22c%22%3A216%2C%20%22ce%22%3A216%2C%20%22rq%22%3A218%2C%20%22rp%22%3A294%2C%20%22rpe%22%3A298%7D%2C%20%22navigation%22%3A%7B%22rc%22%3A1%7D%7D HTTP/1.1" 200 21 [0, 357] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:55 GMT "GET http://static.ak.fbcdn.net/rsrc.php/v2/yE/r/RttT-m7uXSa.js HTTP/1.1" 200 37580 [0, 359] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:40:56 GMT "GET http://radar.cedexis.com/server-14.2.0.js HTTP/1.1" 200 4018 [0, 357] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:41:20 GMT "CONNECT cdn.api.twitter.com:443 HTTP/1.1" 200 - [0, 365] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:43:50 GMT "CONNECT apis.google.com:443 HTTP/1.1" 200 - [0, 361] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:43:50 GMT "CONNECT apis.google.com:443 HTTP/1.1" 200 - [0, 361] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:43:51 GMT "CONNECT plusone.google.com:443 HTTP/1.1" 200 - [0, 366] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:43:55 GMT "CONNECT www.facebook.com:443 HTTP/1.1" 200 - [0, 364] 
+0:0:0:0:0:0:0:1%0 - - 12/Apr/2013:11:45:24 GMT "CONNECT testingbot.com:443 HTTP/1.1" 200 - [0, 349] 
+127.0.0.1 - - 20/Apr/2013:10:05:06 GMT "GET /http://www.google.com HTTP/1.1" 401 403 [0, 1] 
+127.0.0.1 - - 20/Apr/2013:10:05:35 GMT "GET /http://www.google.com HTTP/1.1" 401 403 [0, 6] 
+127.0.0.1 - - 20/Apr/2013:10:05:47 GMT "GET /http://www.google.com HTTP/1.1" 401 403 [0, 7] 
+127.0.0.1 - - 20/Apr/2013:10:05:57 GMT "GET /http://testingbot.com HTTP/1.1" 401 403 [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:08:22 GMT "CONNECT www.google.be:443 HTTP/1.1" 200 - [0, 3] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:08:22 GMT "CONNECT www.google.com:443 HTTP/1.1" 200 - [0, 2] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:08:22 GMT "CONNECT www.google.be:443 HTTP/1.1" 200 - [0, 3] 
+???? - - 20/Apr/2013:10:08:22 GMT "CONNECT www.google.com:443 HTTP/1.1" 200 - [0, 2] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&token=0842229673ccd57462b186818cb623b8&table=dynamic_tunnels&pos=0 HTTP/1.1" 200 - [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 11] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/get_image.js.php?theme=pmahomme HTTP/1.1" 200 - [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/messages.php?lang=en&db=testingbot_production&token=e3cbab78b0749827cdea55e149bf161c HTTP/1.1" 200 - [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?server=1&token=e3cbab78b0749827cdea55e149bf161c&js_frame=right&nocache=4097154548 HTTP/1.1" 200 - [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 19] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:13 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 20] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:15 GMT "POST http://testingbot.com:82/index.php HTTP/1.1" 500 - [0, 21] java.io.IOException: Broken pipe
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:15 GMT "GET http://testingbot.com:82/index.php?db=testingbot_production&table=dynamic_tunnels&token=e3cbab78b0749827cdea55e149bf161c HTTP/1.1" 200 - [0, 22] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:15 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 22] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:15 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 23] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:15 GMT "GET http://testingbot.com:82/js/common.js?ts=1365422834 HTTP/1.1" 304 - [0, 24] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/sql.php?token=e3cbab78b0749827cdea55e149bf161c&db=testingbot_production&table=dynamic_tunnels HTTP/1.1" 200 - [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 32] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 30] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 37] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 31] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 41] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 28] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 33] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 39] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 38] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?server=1&token=e3cbab78b0749827cdea55e149bf161c&js_frame=right&nocache=5463607103 HTTP/1.1" 200 - [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 36] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:16 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 42] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:17 GMT "GET http://testingbot.com:82/navigation.php?token=e3cbab78b0749827cdea55e149bf161c&db=testingbot_production&table=dynamic_tunnels HTTP/1.1" 200 - [0, 25] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 25] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?token=e3cbab78b0749827cdea55e149bf161c&js_frame=left&nocache=5463607103 HTTP/1.1" 200 - [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 46] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/navigation.js?ts=1365422834 HTTP/1.1" 304 - [0, 45] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 43] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 44] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:09:18 GMT "GET http://testingbot.com:82/js/messages.php?ts=1365422834 HTTP/1.1" 200 - [0, 47] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "POST http://testingbot.com:82/tbl_row_action.php HTTP/1.1" 200 - [0, 48] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 48] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 49] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 52] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 50] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 54] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 53] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 51] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:57 GMT "GET http://testingbot.com:82/navigation.php?token=e3cbab78b0749827cdea55e149bf161c&server=1&ajax_request=true&recent_table=true&_nocache=1366452657642976112 HTTP/1.1" 200 - [0, 55] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:58 GMT "POST http://testingbot.com:82/tbl_row_action.php HTTP/1.1" 200 - [0, 55] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:58 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 55] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:58 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 56] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 57] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 60] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 64] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 62] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 68] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 65] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 67] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 69] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 63] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 58] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 59] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 61] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 66] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 70] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:10:59 GMT "GET http://testingbot.com:82/navigation.php?token=e3cbab78b0749827cdea55e149bf161c&server=1&ajax_request=true&recent_table=true&_nocache=1366452659324396435 HTTP/1.1" 200 - [0, 71] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&table=dynamic_tunnels&token=e3cbab78b0749827cdea55e149bf161c&pos=0 HTTP/1.1" 200 - [0, 72] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 72] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 76] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 73] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 81] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 87] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 78] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 82] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 85] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 83] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:42 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 86] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:11:43 GMT "GET http://testingbot.com:82/navigation.php?token=e3cbab78b0749827cdea55e149bf161c&server=1&ajax_request=true&recent_table=true&_nocache=1366452703061765894 HTTP/1.1" 200 - [0, 88] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&table=dynamic_tunnels&token=e3cbab78b0749827cdea55e149bf161c&pos=0 HTTP/1.1" 200 - [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 90] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 91] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 100] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 93] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 92] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 97] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 98] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 94] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 96] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 99] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 95] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 101] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 103] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 104] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:36 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 102] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:10:13:37 GMT "GET http://testingbot.com:82/navigation.php?token=e3cbab78b0749827cdea55e149bf161c&server=1&ajax_request=true&recent_table=true&_nocache=136645281709565238 HTTP/1.1" 200 - [0, 105] 
+127.0.0.1 - - 20/Apr/2013:10:14:27 GMT "GET /http://fxfeeds.mozilla.com:80/en-US/firefox/headlines.xml HTTP/1.1" 401 439 [0, 106] 
+127.0.0.1 - - 20/Apr/2013:10:15:15 GMT "GET /http://testingbot.com:80/ HTTP/1.1" 401 407 [0, 107] 
+127.0.0.1 - - 20/Apr/2013:10:15:17 GMT "GET /http://fxfeeds.mozilla.com:80/en-US/firefox/headlines.xml HTTP/1.1" 401 439 [0, 108] 
+127.0.0.1 - - 20/Apr/2013:11:19:07 GMT "GET /http://testingbot.com HTTP/1.1" 401 403 [0, 1] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=20.0&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 871 [0, 4] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYxfcGIMr3BjIFxbsBAD8 HTTP/1.1" 200 3267 [0, 4] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYy_cGINT3BioFzrsBAH8yBcu7AQAH HTTP/1.1" 200 1099 [0, 4] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY6fwGIJD9BioIeL4BAP___wEyBmm-AQD_fw HTTP/1.1" 200 3228 [0, 4] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMGcCCCAnwgqKGgOAgD______________________________________________wEyCUEOAgD_____fw HTTP/1.1" 200 1597 [0, 4] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:20:21 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGPGKESDAixEqDIVFBAD_________DzIHcUUEAP__Dw HTTP/1.1" 200 2295 [0, 4] 
+178.118.154.245 - - 20/Apr/2013:11:20:49 GMT "GET /http://testingbot.com HTTP/1.1" 401 403 [0, 5] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:21:24 GMT "GET /http://testingbot.com HTTP/1.1" 401 403 [0, 7] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:21:36 GMT "GET http://testingbot.com HTTP/1.1" 200 - [0, 8] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:21:50 GMT "GET http://testingbot.com HTTP/1.1" 200 - [0, 9] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:24:06 GMT "CONNECT chatenabled.mail.google.com:443 HTTP/1.1" 200 - [0, 6] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&table=dynamic_tunnels&token=e3cbab78b0749827cdea55e149bf161c&pos=0 HTTP/1.1" 200 - [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 13] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 11] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 14] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 16] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 12] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 15] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?server=1&token=b357e25ec7ac2a696723997c2a878744&js_frame=right&nocache=4097154548 HTTP/1.1" 200 - [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:27 GMT "GET http://testingbot.com:82/js/messages.php?lang=en&db=testingbot_production&token=b357e25ec7ac2a696723997c2a878744 HTTP/1.1" 200 - [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 17] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 10] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 19] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 20] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 21] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:28 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 18] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:29 GMT "POST http://testingbot.com:82/index.php HTTP/1.1" 200 - [0, 22] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:29 GMT "GET http://testingbot.com:82/index.php?db=testingbot_production&table=dynamic_tunnels&token=b357e25ec7ac2a696723997c2a878744 HTTP/1.1" 200 - [0, 23] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 23] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 24] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/common.js?ts=1365422834 HTTP/1.1" 304 - [0, 25] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/sql.php?token=b357e25ec7ac2a696723997c2a878744&db=testingbot_production&table=dynamic_tunnels HTTP/1.1" 200 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 28] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 30] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 31] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 38] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 36] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 33] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 39] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 42] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 43] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 29] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 40] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 35] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 34] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 37] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 32] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 41] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:30 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?server=1&token=b357e25ec7ac2a696723997c2a878744&js_frame=right&nocache=5463612517 HTTP/1.1" 200 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&db=testingbot_production&table=dynamic_tunnels HTTP/1.1" 200 - [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 26] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/phpmyadmin.css.php?token=b357e25ec7ac2a696723997c2a878744&js_frame=left&nocache=5463612517 HTTP/1.1" 200 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 45] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/js/navigation.js?ts=1365422834 HTTP/1.1" 304 - [0, 46] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 44] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:31 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 47] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&token=b357e25ec7ac2a696723997c2a878744&table=contacts&pos=0 HTTP/1.1" 200 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 27] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 49] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 55] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 58] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 48] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 53] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 56] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 54] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 52] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 50] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 62] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 51] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 57] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 61] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 60] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:38 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 59] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:39 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&server=1&ajax_request=true&recent_table=true&_nocache=13664579792897951 HTTP/1.1" 200 - [0, 63] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "POST http://testingbot.com:82/sql.php HTTP/1.1" 200 - [0, 63] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 63] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 64] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 69] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 67] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 70] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 77] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 71] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 74] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 73] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 76] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 75] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 66] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 65] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 72] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 78] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:41 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 68] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:42 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&server=1&ajax_request=true&recent_table=true&_nocache=1366457981977542784 HTTP/1.1" 200 - [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/tbl_change.php?db=testingbot_production&table=contacts&where_clause=%60contacts%60.%60id%60+%3D+142&clause_is_unique=1&sql_query=SELECT+%2A+FROM+%60contacts%60%0D%0A+ORDER+BY+%60id%60+DESC&goto=sql.php&default_action=update&token=b357e25ec7ac2a696723997c2a878744 HTTP/1.1" 200 - [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 79] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 86] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 87] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 81] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 85] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 82] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 88] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 80] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 84] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 83] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:53 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&server=1&ajax_request=true&recent_table=true&_nocache=1366457993534578603 HTTP/1.1" 200 - [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/sql.php?db=testingbot_production&table=contacts&token=b357e25ec7ac2a696723997c2a878744&pos=0 HTTP/1.1" 200 - [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 89] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 100] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 90] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/indexes.js?ts=1365422834 HTTP/1.1" 304 - [0, 96] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 91] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 93] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 104] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 103] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/sql.js?ts=1365422834 HTTP/1.1" 304 - [0, 102] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/codemirror/lib/codemirror.js?ts=1365422834 HTTP/1.1" 304 - [0, 98] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/tbl_structure.js?ts=1365422834 HTTP/1.1" 304 - [0, 95] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/codemirror/mode/mysql/mysql.js?ts=1365422834 HTTP/1.1" 304 - [0, 99] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 97] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/makegrid.js?ts=1365422834 HTTP/1.1" 304 - [0, 101] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 92] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 94] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:39:58 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&server=1&ajax_request=true&recent_table=true&_nocache=1366457998642198707 HTTP/1.1" 200 - [0, 105] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/tbl_change.php?db=testingbot_production&table=contacts&where_clause=%60contacts%60.%60id%60+%3D+137&clause_is_unique=1&sql_query=SELECT+%2A+FROM+%60contacts%60&goto=sql.php&default_action=update&token=b357e25ec7ac2a696723997c2a878744 HTTP/1.1" 200 - [0, 105] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/cross_framing_protection.js?ts=1365422834 HTTP/1.1" 304 - [0, 105] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/functions.js?ts=1365422834 HTTP/1.1" 304 - [0, 109] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/jquery/jquery-ui-1.8.16.custom.js?ts=1365422834 HTTP/1.1" 304 - [0, 107] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/config.js?ts=1365422834 HTTP/1.1" 304 - [0, 113] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/jquery/timepicker.js?ts=1365422834 HTTP/1.1" 304 - [0, 111] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/tbl_change.js?ts=1365422834 HTTP/1.1" 304 - [0, 110] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/jquery/jquery.qtip-1.0.0-rc3.js?ts=1365422834 HTTP/1.1" 304 - [0, 114] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/update-location.js?ts=1365422834 HTTP/1.1" 304 - [0, 108] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/jquery/jquery-1.6.2.js?ts=1365422834 HTTP/1.1" 304 - [0, 106] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:09 GMT "GET http://testingbot.com:82/js/gis_data_editor.js?ts=1365422834 HTTP/1.1" 304 - [0, 112] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:40:10 GMT "GET http://testingbot.com:82/navigation.php?token=b357e25ec7ac2a696723997c2a878744&server=1&ajax_request=true&recent_table=true&_nocache=1366458009829485923 HTTP/1.1" 200 - [0, 115] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:41:46 GMT "GET http://www.extrahop.com/d/extrahop-discovery-sig.png HTTP/1.1" 200 1619 [0, 116] imageratio:1619/6777=0.239
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:48:48 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=20.0&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 732 [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:48:48 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYy_cGINT3BioFz7sBAD8yBcu7AQAP HTTP/1.1" 200 2080 [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:48:48 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY6fwGIJD9BioHe74BAP__PzIHab4BAP__Aw HTTP/1.1" 200 3924 [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:48:48 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMGcCCCAnwgqJ2sOAgD_____________________________________________PzIKQQ4CAP______Aw HTTP/1.1" 200 1705 [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:48:48 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGPGKESDAixEqC4tFBAD_______8_MghxRQQA____Aw HTTP/1.1" 200 3831 [0, 118] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:11:55:22 GMT "CONNECT mail-attachment.googleusercontent.com:443 HTTP/1.1" 200 - [0, 119] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:17:38 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=20.0&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 715 [0, 120] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:17:38 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYy_cGINT3BioF0LsBAB8yBcu7AQAf HTTP/1.1" 200 2663 [0, 120] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:17:38 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY6fwGIJD9BioHfL4BAP__HzIHab4BAP__Bw HTTP/1.1" 200 4955 [0, 120] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:17:38 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMGcCCCAnwgqJ28OAgD_____________________________________________AzIKQQ4CAP______Pw HTTP/1.1" 200 1857 [0, 120] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:17:38 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGPGKESDAixEqC5BFBAD_______8BMghxRQQA____fw HTTP/1.1" 200 4861 [0, 120] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:49:31 GMT "POST http://safebrowsing.clients.google.com/safebrowsing/downloads?client=navclient-auto-ffox&appver=20.0&pver=2.2&wrkey=AKEgNitdD0ypo8klnO0bU6tpIV4YSs665CaOp-im4gCmKazJRC_gVpDDAPVw50oA_jeShiOZPcKLCExHE3WnRwCeCmVr0PU4qg== HTTP/1.1" 200 718 [0, 121] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:49:31 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYy_cGINT3BioF0bsBAA8yBcu7AQA_ HTTP/1.1" 200 3375 [0, 121] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:49:32 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAY8_wGIPz8BjIGc74BAP8D HTTP/1.1" 200 3678 [0, 121] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:49:32 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMGcCCCAnwgqJnYOAgD___________________________________________8HMgtBDgIA________Hw HTTP/1.1" 200 4887 [0, 121] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:49:32 GMT "GET http://safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGPGKESDAixEqCpdFBAD______wMyCXFFBAD_____Pw HTTP/1.1" 200 17061 [0, 121] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:50:31 GMT "GET http://178-118-154-245.access.telenet.be/ HTTP/1.1" 200 463 [0, 122] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:50:31 GMT "GET http://178-118-154-245.access.telenet.be/favicon.ico HTTP/1.1" 200 30894 [0, 122] 
+0:0:0:0:0:0:0:1%0 - - 20/Apr/2013:12:55:44 GMT "CONNECT mail.google.com:443 HTTP/1.1" 200 - [0, 3] 

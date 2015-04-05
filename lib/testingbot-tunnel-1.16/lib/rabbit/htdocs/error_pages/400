@@ -1,0 +1,6 @@
+<html><head><title>Bad Request</title></head>
+<body bgcolor="WHITE" text="BLACK" link="BLUE" alink="RED" vlink="#AA00AA">
+<img src="http://$proxy/FileSender/public/smallRabbIT4.png" alt="RabbIT logo" align="right">
+<h1>Bad Request</h1>
+Unable to handle request: <%exception%>
+</body></html>

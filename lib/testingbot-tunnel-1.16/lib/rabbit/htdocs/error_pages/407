@@ -1,0 +1,7 @@
+<html><head><title>Bad Request</title></head>
+<body bgcolor="WHITE" text="BLACK" link="BLUE" alink="RED" vlink="#AA00AA">
+<img src="http://$proxy/FileSender/public/smallRabbIT4.png" alt="RabbIT logo" align="right">
+<h1>Proxy Authentication required</h1>
+You need to provide some authentication to gain access to:
+<b><%url%></b>
+</body></html>

@@ -1,0 +1,116 @@
+version 4.11 (2012-02-16) Cleanup of the request logging. Make sure that
+	logging is done off the selector threads so that we can call
+	external loggers. Added configurable traffic usage loggers so that
+	it is easy to log user network traffic usage. Extracted cache
+	configuration to its own interface and moved the ncache
+	implementation to its own package. The CacheEntry interface was
+	cleaned up so that it is easier to implement and easier to use,
+	some methods that were only for internal usage were removed. More
+	fixes for http headers reading, when the header has been split
+	into many different blocks on the network.
+
+version 4.10 (2011-06-29) Fixed a problem with StackOverflow for chunked
+	resources with many small chunks. Updated rnio to version
+	1.2. Fixed a problem with enlarging an already large data buffer
+	data buffer. Fixed a problem that caused some bytes to get lost
+	when a data buffer were enlarged. Updated the cache_only config so
+	that rabbit starts without warnings. Try to return the data buffer
+	in a few more cases. Updated javadocs.
+
+version 4.9 (2011-01-18) Added a jndi context for database resources. Made
+	it easier to use external classes for databases by adding custom
+	class loading. Stopped using TCP_NO_DELAY. Fixed a problem that
+	caused RequestLineTooLongException to be thrown in some rare
+	cases. Much updates of the javadoc. Added a filter that blocks
+	sites using a sql database table of hosts. Update the rnio
+	library.
+
+version 4.8 (2010-10-27) Big javadoc update. Add support for filtering
+	of connect requests. Fixed the problem where the log file got
+	filled with IllegalStateException when repack was on. Handle
+	character encodings and http header content better. Handle semi
+	transparent images better when using the java based image
+	converter. Updated dnsjava to 2.1.0. Shorten the log from
+	"Connection reset by peer". Added addresses to SSLHandlers logs.
+
+version 4.7 (2010-07-25) Fixed the problem 401 and 407 responses when
+	using FileTemplateHttpGeneratorFactory. Added a proxy chain
+	selector to make it it possible to use different connections
+	strategies depending on the request uri. Made it possible to
+	specify a ProxyChainFactory in rabbit.conf. Added a
+	ProxyChainFactory that uses direct access to internal networks and
+	uses a chained proxy for external access. Made sure that the ant
+	based build got valid Main-Class and a Class-Path entries and that
+	the Help.txt was included in the jar. Updated ant javadoc task so
+	that it uses the same arguments as the Makefile. Fixed many
+	trivial issues flagged by idea. A lot of javadoc was added or
+	updated. Made sure that http header read buffers are expanded once
+	before throwing the 414 request too long response. Fixed a problem
+	with reading pipelined requests. Removed the clientHandler from
+	the different handlers since they did not and must not use it.
+
+version 4.6 (2010-05-24) Reading a broken cache index now results
+	in an empty cache instead of a cache with no files, but a big
+	size. Made it possible to configure what HttpGenerator to
+	use. ImageHandler now detects and unpacks images that have a
+	content encoding set to gzip. Added a http generator that uses a
+	directory of template pages for the actual error pages (like 400,
+	504, ...). Some minor code cleanup in cache.
+
+version 4.5 (2010-03-23) Created rnio as a separate project out of
+	the rabbit.nio package and made rabbit use rnio. Use URLDeocder
+	instead of home written method. Use utf-8 for meta pages by
+	default. Add a few missing javadoc package descriptions and fixed
+	a few typos in the javadoc. Renamed Coder to Base64 since that is
+	all it handles. Made it possible for filters to see the client
+	request body. Fixed some cross site scripting problems with the
+	generated error pages. Changed the cache so that it throws
+	CacheException if an operation fails.
+
+version 4.4 (2010-01-04) Made it possible to restrict sql authentication to
+	one ip only. Moved the image conversion to separate package and
+	merge the different image handlers into just one ImageHandler that
+	uses the right image converter internally. Made ImageHandler fall
+	back to java based image conversion if the external process
+	fails. Merged the different proxy authentication filters into one
+	filter class and several back-ends. Moved proxy authentication
+	caching up to ProxyAuth so that all authenticators can use it.
+	Added some logging to the image handler. Setting repack to true and
+	compress to false now works. Added a setting "allow_without_auth"
+	to the ProxyAuth so that it possible to access some pages even if
+	proxy authentication is generally required. Fixed a problem with
+	HTTP/0.9 request.
+
+version 4.3 (2009-11-17) Some code cleanups identified by findbugs.
+	Changed the handler setup to use full regexps. Updated the handler
+	setup so that it catches more images. Updated the sample web
+	server so that it is more secure and sends correct mime type in
+	more cases. Updated dnsjava to 2.0.7. Added a image handler that
+	uses ImageIO/ImageWriter so it is full java and that means that it
+	does not have to fork a convert process. Updated some filter
+	documentation. Made it possible to configure SQLProxyAuth to cache
+	the results.
+
+version 4.2 (2009-08-20) Made it possible to specify what ip rabbit
+	should listen on. Made it possible to specify what ip rabbit
+	should use for outgoing connections. Made access logging handle
+	log setup failure without getting NullPointerException.  Added
+	task timing and a status page that can show the time take by
+	different tasks. Do not log about empty cache dir on start-up.
+
+version 4.1 (2009-07-01) Increased the default keepalive timeout to 30
+	seconds. Made number of selector threads configurable, with a
+	default value of the number of CPU cores. Made selector status
+	page easier to read by altering colors between selectors. Made
+	WebConnectionResourceSource actually grow the download buffer when
+	it has read full chunks a few times. Made ConnectionHandler use
+	concurrent collections for better scalability. ConnectionHandler
+	now removes all empty pools. Tried to fix a NPE in the selector
+	code. Call Deflater.end to release native zip resources earlier.
+
+version 4.0 (2009-05-03) Reworked nio layer so that rabbit uses multiple
+	selector threads. Reworked logging to use java.util.logging and
+	made it possible to use either rabbit.conf or the system property
+	java.util.logging.config.file to specify the logging
+	configuration. Fixed a problem where web connections could be put
+	into the connection pools multiple times.

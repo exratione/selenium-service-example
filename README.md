@@ -55,7 +55,7 @@ executable updated in `config/index.js`.
 
 ## Running the Example Tests
 
-Fire up the Vagrant Ubuntu 12.04 VM; it will provision itself with the latest
+Fire up the Vagrant Ubuntu 14.04 VM; it will provision itself with the latest
 stable Node.js version:
 
 ```

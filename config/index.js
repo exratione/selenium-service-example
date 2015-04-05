@@ -84,8 +84,8 @@ module.exports = {
       browser_version: '29.0',
       os: 'Windows',
       os_version: '8',
-      // Uncomment for greater logging from the tunnel process.
-      // 'browserstack.debug' : true,
+      // Uncomment for much more verbose logging from the tunnel process.
+      //'browserstack.debug' : true,
       'browserstack.tunnel': true,
       // These will be set automatically based on the user and key provided,
       // and the generated unique tunnel ID. They are noted here for reference
@@ -97,7 +97,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/BrowserStackLocal-2.2-linux-x64',
+      path: 'lib/BrowserStackLocal-3.6-linux-x64',
       // Log file name. It will be written to the general log directory.
       logfile: 'browserstack.log',
       // Milliseconds to wait for the SSH tunnel connection to be established.
@@ -133,7 +133,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel binary.
-      path: 'lib/sc-4.1-linux/bin/sc',
+      path: 'lib/sc-4.3.8-linux/bin/sc',
       // Log file name. It will be written to the general log directory.
       logfile: 'saucelabs.log',
       // Milliseconds to wait for the SSH tunnel connection to be established,
@@ -171,7 +171,7 @@ module.exports = {
 
     tunnel: {
       // Path to the tunnel JAR file.
-      path: 'lib/testingbot-tunnel-1.14/testingbot-tunnel.jar',
+      path: 'lib/testingbot-tunnel-1.16/testingbot-tunnel.jar',
       // Log file name. It will be written to the general log directory.
       logfile: 'testingbot.log',
       // Milliseconds to wait for the SSH tunnel connection to be established,

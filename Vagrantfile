@@ -5,11 +5,10 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  # Every Vagrant virtual environment requires a box to build off of. Here
-  # we are using 64-bit Ubuntu 12.04. It will be fetched from the remote
-  # URL if not already installed.
-  config.vm.box = "precise64"
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  # Every Vagrant virtual environment requires a box to build on. Here we're
+  # using 64-bit Ubuntu 14.04 LTS.
+  config.vm.box = "trusty64"
+  config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.

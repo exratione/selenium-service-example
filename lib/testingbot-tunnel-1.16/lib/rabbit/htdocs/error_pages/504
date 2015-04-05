@@ -1,0 +1,10 @@
+<html><head><title>Gateway Timeout</title></head>
+<body bgcolor="WHITE" text="BLACK" link="BLUE" alink="RED" vlink="#AA00AA">
+<img src="http://$proxy/FileSender/public/smallRabbIT4.png" alt="RabbIT logo" align="right">
+<h1>Gateway Timeout</h1>
+Server: <%url%>
+<br>Error: <%exception%>
+
+<br>Did you mean to go to: 
+<%places%>
+</ul></b><br></body></html>
